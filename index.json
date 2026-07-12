@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "routes": [
+    {
+      "id": "hcim-early-game-guide",
+      "name": "B0aty's Hcim Guide",
+      "author": "B0aty",
+      "description": "Early Hardcore Ironman guide: tutorial cleanup, Restless Ghost, X Marks the Spot, and Rune Mysteries setup.",
+      "icon": "icons/hcim-early-game-guide.png",
+      "file": "routes/hcim-early-game-guide.json",
+      "steps": 12,
+      "tags": [
+        "hardcore",
+        "early-game",
+        "questing"
+      ],
+      "updated": "2026-07-12"
+    }
+  ]
+}
