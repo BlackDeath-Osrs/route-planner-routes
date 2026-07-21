@@ -27,7 +27,7 @@
       "id": "doink-fruit-tree-calquat-run",
       "name": "Farming - Fruit Tree and Calquat Run",
       "author": "Doink Oink",
-      "description": "A route that hits all available Tree Patches with teleports.",
+      "description": "A route that hits all available Fruit Tree and Calquat Patches with teleports.",
       "icon": "icons/doink-fruit-tree-calquat-run.png",
       "file": "routes/doink-fruit-tree-calquat-run.json",
       "steps": 19,
