@@ -1,4 +1,38 @@
 {
   "schemaVersion": 1,
-  "routes": []
+  "routes": [
+    {
+      "id": "doink-tree-run",
+      "name": "Farming - Tree Run",
+      "author": "Doink Oink",
+      "description": "A route that hits all available Tree Patches with teleports.",
+      "icon": "icons/doink-tree-run.png",
+      "file": "routes/doink-tree-run.json",
+      "steps": 14,
+      "tags": ["farming"],
+      "updated": "2026-07-20"
+    },
+    {
+      "id": "doink-herb-run",
+      "name": "Farming - Herb Run",
+      "author": "Doink Oink",
+      "description": "A route that hits all available Herb Patches with teleports.",
+      "icon": "icons/doink-herb-run.png",
+      "file": "routes/doink-herb-run.json",
+      "steps": 2,
+      "tags": ["farming"],
+      "updated": "2026-07-20"
+    },
+    {
+      "id": "doink-fruit-tree-calquat-run",
+      "name": "Farming - Fruit Tree and Calquat Run",
+      "author": "Doink Oink",
+      "description": "A route that hits all available Fruit Tree and Calquat Patches with teleports.",
+      "icon": "icons/doink-fruit-tree-calquat-run.png",
+      "file": "routes/doink-fruit-tree-calquat-run.json",
+      "steps": 19,
+      "tags": ["farming"],
+      "updated": "2026-07-20"
+    }
+  ]
 }
