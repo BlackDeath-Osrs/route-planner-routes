@@ -33,6 +33,17 @@
       "steps": 19,
       "tags": ["farming"],
       "updated": "2026-07-20"
+    },
+    {
+      "id": "blackdeath-hardcore-1",
+      "name": "Hardcore Worlds 1: Lumbridge to Waterfall Quest",
+      "author": "BlackDeath",
+      "description": "Hardcore Worlds part 1 for a fresh main: early quests, travel and money, from Lumbridge to Waterfall Quest.",
+      "icon": "icons/blackdeath-hardcore-1.png",
+      "file": "routes/blackdeath-hardcore-1.json",
+      "steps": 230,
+      "tags": ["questing", "early-game", "hardcore"],
+      "updated": "2026-10-19"
     }
   ]
 }
