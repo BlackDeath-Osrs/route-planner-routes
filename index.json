@@ -41,9 +41,9 @@
       "description": "Hardcore Worlds part 1 for a fresh main: early quests, travel and money, from Lumbridge to Waterfall Quest.",
       "icon": "icons/blackdeath-hardcore-1.png",
       "file": "routes/blackdeath-hardcore-1.json",
-      "steps": 230,
+      "steps": 250,
       "tags": ["questing", "early-game", "hardcore"],
-      "updated": "2026-10-19"
+      "updated": "2026-10-20"
     }
   ]
 }

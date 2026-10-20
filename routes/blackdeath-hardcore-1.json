@@ -53,6 +53,22 @@
           "noteText": "Everyone starts in the same places. Shop empty? Hop worlds; if it stays empty, the step note says what to do instead. Quests are never contested, so the route leans on them. The Grand Exchange is nearly empty the first days: don't count on it early.",
           "noteAutoComplete": false,
           "sectionId": "40bd29ac-1538-53ec-bcc1-0bc6983893cb"
+        },
+        {
+          "name": "Found a bug?",
+          "type": "LOCATION",
+          "targetId": -1,
+          "completed": false,
+          "itemMode": "BANK",
+          "questStopIndex": -1,
+          "transitionObjectId": -1,
+          "boardObjectId": -1,
+          "highlightEnabled": false,
+          "npcKillCount": 0,
+          "questComplete": false,
+          "noteText": "This route was built on an account that had already done most of it, so a few steps may be off: a wrong tile, or a step that won't tick itself off. Tick it by hand and report it on GitHub (BlackDeath-Osrs/route-planner).",
+          "noteAutoComplete": false,
+          "sectionId": "40bd29ac-1538-53ec-bcc1-0bc6983893cb"
         }
       ]
     },
@@ -3436,8 +3452,218 @@
             "plane": 0
           },
           "questName": "WITCHS_HOUSE",
-          "noteText": "DANGER: safespot the experiment (spider form and after). Quest Helper shows the safespot.",
+          "noteText": "DANGER: safespot the experiment (spider form and after). Quest Helper shows the safespot. Keep the door key (Mourning's End Part II).",
           "noteAutoComplete": false,
+          "sectionId": "f6cd55eb-c648-5d31-938e-879282e5e8ec"
+        },
+        {
+          "name": "Buy a vial of water pack",
+          "type": "LOCATION",
+          "targetId": -1,
+          "completed": false,
+          "itemMode": "SHOP",
+          "questStopIndex": -1,
+          "transitionObjectId": -1,
+          "boardObjectId": -1,
+          "highlightEnabled": true,
+          "npcKillCount": 0,
+          "questComplete": false,
+          "worldPoint": {
+            "x": 2898,
+            "y": 3430,
+            "plane": 0
+          },
+          "skillingTargetNpc": "Jatix",
+          "itemList": "Vial of water pack",
+          "sectionId": "f6cd55eb-c648-5d31-938e-879282e5e8ec"
+        },
+        {
+          "name": "Talk to Sanfew upstairs",
+          "type": "LOCATION",
+          "targetId": -1,
+          "completed": false,
+          "itemMode": "BANK",
+          "questStopIndex": -1,
+          "transitionObjectId": -1,
+          "boardObjectId": -1,
+          "highlightEnabled": true,
+          "npcKillCount": 0,
+          "questComplete": false,
+          "worldPoint": {
+            "x": 2899,
+            "y": 3429,
+            "plane": 1
+          },
+          "skillingTargetNpc": "Sanfew",
+          "questName": "DRUIDIC_RITUAL",
+          "sectionId": "f6cd55eb-c648-5d31-938e-879282e5e8ec"
+        },
+        {
+          "name": "Dip the meats in the cauldron",
+          "type": "LOCATION",
+          "targetId": -1,
+          "completed": false,
+          "itemMode": "PICKUP",
+          "questStopIndex": -1,
+          "transitionObjectId": -1,
+          "boardObjectId": -1,
+          "highlightEnabled": true,
+          "npcKillCount": 0,
+          "questComplete": false,
+          "worldPoint": {
+            "x": 2893,
+            "y": 9831,
+            "plane": 0
+          },
+          "skillingTargetObject": "Cauldron of Thunder",
+          "itemList": "Enchanted beef, Enchanted rat, Enchanted bear, Enchanted chicken",
+          "inventoryHighlightItems": "Raw rat meat, Raw bear meat, Raw chicken, Raw beef",
+          "noteText": "Taverley Dungeon, past the suits of armour (they hit 2-3: run through the gate).",
+          "noteAutoComplete": false,
+          "sectionId": "f6cd55eb-c648-5d31-938e-879282e5e8ec"
+        },
+        {
+          "name": "Meats to Sanfew",
+          "type": "LOCATION",
+          "targetId": -1,
+          "completed": false,
+          "itemMode": "BANK",
+          "questStopIndex": -1,
+          "transitionObjectId": -1,
+          "boardObjectId": -1,
+          "highlightEnabled": true,
+          "npcKillCount": 0,
+          "questComplete": false,
+          "worldPoint": {
+            "x": 2899,
+            "y": 3429,
+            "plane": 1
+          },
+          "skillingTargetNpc": "Sanfew",
+          "questName": "DRUIDIC_RITUAL",
+          "sectionId": "f6cd55eb-c648-5d31-938e-879282e5e8ec"
+        },
+        {
+          "name": "Finish Druidic Ritual",
+          "type": "LOCATION",
+          "targetId": -1,
+          "completed": false,
+          "itemMode": "BANK",
+          "questStopIndex": -1,
+          "transitionObjectId": -1,
+          "boardObjectId": -1,
+          "highlightEnabled": true,
+          "npcKillCount": 0,
+          "questComplete": true,
+          "worldPoint": {
+            "x": 2925,
+            "y": 3486,
+            "plane": 0
+          },
+          "skillingTargetNpc": "Kaqemeex",
+          "questName": "DRUIDIC_RITUAL",
+          "sectionId": "f6cd55eb-c648-5d31-938e-879282e5e8ec"
+        },
+        {
+          "name": "Chronicle to Varrock",
+          "type": "LOCATION",
+          "targetId": -1,
+          "completed": false,
+          "itemMode": "BANK",
+          "questStopIndex": -1,
+          "transitionObjectId": -1,
+          "boardObjectId": -1,
+          "highlightEnabled": false,
+          "npcKillCount": 0,
+          "questComplete": false,
+          "teleportMethod": "ITEM",
+          "teleportItem": "Chronicle: Champions Guild",
+          "teleportDestination": {
+            "x": 3202,
+            "y": 3354,
+            "plane": 0
+          },
+          "sectionId": "f6cd55eb-c648-5d31-938e-879282e5e8ec"
+        },
+        {
+          "name": "Blue Moon Inn: open the chest upstairs",
+          "type": "LOCATION",
+          "targetId": -1,
+          "completed": false,
+          "itemMode": "PICKUP",
+          "questStopIndex": -1,
+          "transitionObjectId": -1,
+          "boardObjectId": -1,
+          "highlightEnabled": true,
+          "npcKillCount": 0,
+          "questComplete": false,
+          "skillingTargetObject": "Chest",
+          "itemList": "Pirate message",
+          "inventoryHighlightItems": "Chest key",
+          "questName": "PIRATES_TREASURE",
+          "sectionId": "f6cd55eb-c648-5d31-938e-879282e5e8ec"
+        },
+        {
+          "name": "Talk to Baraek",
+          "type": "LOCATION",
+          "targetId": -1,
+          "completed": false,
+          "itemMode": "BANK",
+          "questStopIndex": -1,
+          "transitionObjectId": -1,
+          "boardObjectId": -1,
+          "highlightEnabled": true,
+          "npcKillCount": 0,
+          "questComplete": false,
+          "worldPoint": {
+            "x": 3217,
+            "y": 3434,
+            "plane": 0
+          },
+          "skillingTargetNpc": "Baraek",
+          "dialogOptions": "3,1",
+          "questName": "SHIELD_OF_ARRAV",
+          "sectionId": "f6cd55eb-c648-5d31-938e-879282e5e8ec"
+        },
+        {
+          "name": "Reldo: The Knight's Sword",
+          "type": "LOCATION",
+          "targetId": -1,
+          "completed": false,
+          "itemMode": "BANK",
+          "questStopIndex": -1,
+          "transitionObjectId": -1,
+          "boardObjectId": -1,
+          "highlightEnabled": true,
+          "npcKillCount": 0,
+          "questComplete": false,
+          "worldPoint": {
+            "x": 3211,
+            "y": 3494,
+            "plane": 0
+          },
+          "skillingTargetNpc": "Reldo",
+          "dialogOptions": "2",
+          "questName": "THE_KNIGHTS_SWORD",
+          "sectionId": "f6cd55eb-c648-5d31-938e-879282e5e8ec"
+        },
+        {
+          "name": "Bank at Varrock West",
+          "type": "LOCATION",
+          "targetId": -1,
+          "completed": false,
+          "itemMode": "DEPOSIT_ALL",
+          "questStopIndex": -1,
+          "transitionObjectId": -1,
+          "boardObjectId": -1,
+          "highlightEnabled": false,
+          "npcKillCount": 0,
+          "questComplete": false,
+          "worldPoint": {
+            "x": 3185,
+            "y": 3436,
+            "plane": 0
+          },
           "sectionId": "f6cd55eb-c648-5d31-938e-879282e5e8ec"
         }
       ]
@@ -3558,7 +3784,7 @@
             "y": 3494,
             "plane": 0
           },
-          "itemList": "Coins,Pie dish,Steel pickaxe,2 Iron bar,15 Jug of wine,Bucket of water",
+          "itemList": "Coins,Pie dish,Steel pickaxe,2 Iron bar,15 Jug of wine,Bucket of water,Spade",
           "sectionId": "83eb15b9-f3e0-5bbf-967e-84f22976811e"
         },
         {
@@ -3634,6 +3860,29 @@
           "skillingProgress": 0,
           "itemList": "2 Blurite ore",
           "noteText": "Asgarnian Ice Dungeon. DANGER: safespot the ice warriors first; never mine while they're on you. Mine 2 blurite ore. The Chronicle is your way out.",
+          "noteAutoComplete": false,
+          "sectionId": "83eb15b9-f3e0-5bbf-967e-84f22976811e"
+        },
+        {
+          "name": "Dig in Falador Park",
+          "type": "LOCATION",
+          "targetId": -1,
+          "completed": false,
+          "itemMode": "BANK",
+          "questStopIndex": -1,
+          "transitionObjectId": -1,
+          "boardObjectId": -1,
+          "highlightEnabled": true,
+          "npcKillCount": 0,
+          "questComplete": true,
+          "worldPoint": {
+            "x": 2999,
+            "y": 3383,
+            "plane": 0
+          },
+          "inventoryHighlightItems": "Spade",
+          "questName": "PIRATES_TREASURE",
+          "noteText": "Behind the statue's south side. Wyson the gardener attacks you: he hits 1.",
           "noteAutoComplete": false,
           "sectionId": "83eb15b9-f3e0-5bbf-967e-84f22976811e"
         },
@@ -4575,7 +4824,7 @@
           "npcKillCount": 0,
           "questComplete": false,
           "skillingTargetNpc": "Heckel Funch",
-          "itemList": "10 Pineapple,2 Orange,3 Lemon,Cocktail shaker,Cocktail glass,5 Bucket of milk,3 Vodka",
+          "itemList": "10 Pineapple,2 Orange,3 Lemon,Cocktail shaker,Cocktail glass,5 Bucket of milk,3 Vodka,Dwellberries,2 Chocolate dust",
           "sectionId": "74a6d4a6-60e2-5524-a8c7-b48cbf5c18c6",
           "worldPoint": {
             "x": 2490,
@@ -4619,6 +4868,33 @@
           },
           "skillingTargetNpc": "Blurberry",
           "questName": "ALFRED_GRIMHANDS_BARCRAWL",
+          "sectionId": "74a6d4a6-60e2-5524-a8c7-b48cbf5c18c6"
+        },
+        {
+          "name": "Gnome Agility Course lap",
+          "type": "LOCATION",
+          "targetId": -1,
+          "completed": false,
+          "itemMode": "BANK",
+          "questStopIndex": -1,
+          "transitionObjectId": -1,
+          "boardObjectId": -1,
+          "highlightEnabled": true,
+          "npcKillCount": 0,
+          "questComplete": false,
+          "worldPoint": {
+            "x": 2474,
+            "y": 3436,
+            "plane": 0
+          },
+          "skillingTargetObject": "Log balance",
+          "skillingSkill": "AGILITY",
+          "skillingGoalType": "XP_GAIN",
+          "skillingGoalValue": 86,
+          "skillingStartXp": 0,
+          "skillingProgress": 0,
+          "noteText": "Western Province Easy Diary.",
+          "noteAutoComplete": false,
           "sectionId": "74a6d4a6-60e2-5524-a8c7-b48cbf5c18c6"
         },
         {
@@ -4957,6 +5233,159 @@
       ]
     },
     {
+      "id": "8d893b7f-7397-54dc-a8a6-91c6994b4414",
+      "name": "Plague City and Biohazard",
+      "collapsed": false,
+      "steps": [
+        {
+          "name": "Withdraw",
+          "type": "LOCATION",
+          "targetId": -1,
+          "completed": false,
+          "itemMode": "BANK",
+          "questStopIndex": -1,
+          "transitionObjectId": -1,
+          "boardObjectId": -1,
+          "highlightEnabled": false,
+          "npcKillCount": 0,
+          "questComplete": false,
+          "worldPoint": {
+            "x": 2655,
+            "y": 3283,
+            "plane": 0
+          },
+          "itemList": "Dwellberries, Chocolate dust, Bucket of milk, Snape grass, Spade, Rope, 4 Bucket of water",
+          "sectionId": "8d893b7f-7397-54dc-a8a6-91c6994b4414"
+        },
+        {
+          "name": "Plague City",
+          "type": "LOCATION",
+          "targetId": -1,
+          "completed": false,
+          "itemMode": "BANK",
+          "questStopIndex": -1,
+          "transitionObjectId": -1,
+          "boardObjectId": -1,
+          "highlightEnabled": true,
+          "npcKillCount": 0,
+          "questComplete": true,
+          "worldPoint": {
+            "x": 2568,
+            "y": 3333,
+            "plane": 0
+          },
+          "skillingTargetNpc": "Edmond",
+          "questName": "PLAGUE_CITY",
+          "noteText": "Quest Helper. Keep the Ardougne teleport scroll from the reward.",
+          "noteAutoComplete": false,
+          "sectionId": "8d893b7f-7397-54dc-a8a6-91c6994b4414"
+        },
+        {
+          "name": "Read the Ardougne teleport scroll",
+          "type": "LOCATION",
+          "targetId": -1,
+          "completed": false,
+          "itemMode": "SELL",
+          "questStopIndex": -1,
+          "transitionObjectId": -1,
+          "boardObjectId": -1,
+          "highlightEnabled": true,
+          "npcKillCount": 0,
+          "questComplete": false,
+          "worldPoint": {
+            "x": 2568,
+            "y": 3333,
+            "plane": 0
+          },
+          "itemList": "Ardougne teleport scroll",
+          "inventoryHighlightItems": "Ardougne teleport scroll",
+          "noteText": "Unlocks the Ardougne Teleport spell.",
+          "noteAutoComplete": false,
+          "sectionId": "8d893b7f-7397-54dc-a8a6-91c6994b4414"
+        },
+        {
+          "name": "Start Biohazard",
+          "type": "LOCATION",
+          "targetId": -1,
+          "completed": false,
+          "itemMode": "BANK",
+          "questStopIndex": -1,
+          "transitionObjectId": -1,
+          "boardObjectId": -1,
+          "highlightEnabled": true,
+          "npcKillCount": 0,
+          "questComplete": false,
+          "worldPoint": {
+            "x": 2592,
+            "y": 3336,
+            "plane": 0
+          },
+          "skillingTargetNpc": "Elena",
+          "questName": "BIOHAZARD",
+          "noteText": "Continue until you have the plague sample. Take 1 extra rotten apple and 5 extra pigeon cages (Mourning's End Part I, One Small Favour). The chemist comes in Part 2.",
+          "noteAutoComplete": false,
+          "sectionId": "8d893b7f-7397-54dc-a8a6-91c6994b4414"
+        },
+        {
+          "name": "Buy balls of wool",
+          "type": "LOCATION",
+          "targetId": -1,
+          "completed": false,
+          "itemMode": "SHOP",
+          "questStopIndex": -1,
+          "transitionObjectId": -1,
+          "boardObjectId": -1,
+          "highlightEnabled": true,
+          "npcKillCount": 0,
+          "questComplete": false,
+          "skillingTargetNpc": "Aemad",
+          "itemList": "20 Ball of wool",
+          "sectionId": "8d893b7f-7397-54dc-a8a6-91c6994b4414"
+        },
+        {
+          "name": "Probita's pets",
+          "type": "LOCATION",
+          "targetId": -1,
+          "completed": false,
+          "itemMode": "BANK",
+          "questStopIndex": -1,
+          "transitionObjectId": -1,
+          "boardObjectId": -1,
+          "highlightEnabled": true,
+          "npcKillCount": 0,
+          "questComplete": false,
+          "worldPoint": {
+            "x": 2621,
+            "y": 3294,
+            "plane": 0
+          },
+          "skillingTargetNpc": "Probita",
+          "noteText": "Ardougne Easy Diary: check her pets.",
+          "noteAutoComplete": false,
+          "sectionId": "8d893b7f-7397-54dc-a8a6-91c6994b4414"
+        },
+        {
+          "name": "Bank at Ardougne South",
+          "type": "LOCATION",
+          "targetId": -1,
+          "completed": false,
+          "itemMode": "DEPOSIT_ALL",
+          "questStopIndex": -1,
+          "transitionObjectId": -1,
+          "boardObjectId": -1,
+          "highlightEnabled": false,
+          "npcKillCount": 0,
+          "questComplete": false,
+          "worldPoint": {
+            "x": 2655,
+            "y": 3283,
+            "plane": 0
+          },
+          "sectionId": "8d893b7f-7397-54dc-a8a6-91c6994b4414"
+        }
+      ]
+    },
+    {
       "id": "a8b3e9d7-d176-59d6-a29b-392e80413df5",
       "name": "Bank 23: Sheep Herder",
       "collapsed": false,
@@ -5120,7 +5549,8 @@
           "inventoryHighlightItems": "Rope",
           "noteText": "Inside Baxtorian Falls. DANGER: water spells only; eat early.",
           "noteAutoComplete": false,
-          "sectionId": "e885be8d-e818-5c9c-9071-f77f7598fbd5"
+          "sectionId": "e885be8d-e818-5c9c-9071-f77f7598fbd5",
+          "skillingTargetObject": "rope"
         },
         {
           "name": "Finish Waterfall Quest",
