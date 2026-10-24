@@ -2987,7 +2987,7 @@
           "sectionId": "bfb89f4d-407a-507a-9b7f-3556bd53a45a"
         },
         {
-          "name": "Take the rum from the crate",
+          "name": "Take the rum in Wydin's back room",
           "type": "LOCATION",
           "targetId": -1,
           "completed": false,
@@ -3000,8 +3000,6 @@
           "questComplete": false,
           "skillingTargetObject": "Crate",
           "itemList": "Karamjan rum",
-          "noteText": "In Wydin's back room.",
-          "noteAutoComplete": false,
           "sectionId": "bfb89f4d-407a-507a-9b7f-3556bd53a45a"
         },
         {
@@ -3080,8 +3078,6 @@
           "npcKillCount": 0,
           "questComplete": false,
           "itemList": "2 Logs",
-          "noteText": "Where you get the rat's tail (Witch's Potion).",
-          "noteAutoComplete": false,
           "sectionId": "bfb89f4d-407a-507a-9b7f-3556bd53a45a"
         },
         {
@@ -3597,6 +3593,11 @@
           "highlightEnabled": true,
           "npcKillCount": 0,
           "questComplete": false,
+          "worldPoint": {
+            "x": 3219,
+            "y": 3395,
+            "plane": 1
+          },
           "skillingTargetObject": "Chest",
           "itemList": "Pirate message",
           "inventoryHighlightItems": "Chest key",
@@ -4680,8 +4681,6 @@
           "npcKillCount": 0,
           "questComplete": false,
           "itemList": "2 Purple dye",
-          "noteText": "On the way through Hazeel Cult.",
-          "noteAutoComplete": false,
           "sectionId": "c1acf918-8a6f-58e4-9b18-d2bf8b8f014c"
         },
         {
@@ -4720,8 +4719,6 @@
           "npcKillCount": 0,
           "questComplete": false,
           "itemList": "Glarial's pebble",
-          "noteText": "In Tree Gnome Village (Waterfall Quest).",
-          "noteAutoComplete": false,
           "sectionId": "c1acf918-8a6f-58e4-9b18-d2bf8b8f014c"
         },
         {
@@ -4845,8 +4842,7 @@
           "npcKillCount": 0,
           "questComplete": false,
           "itemList": "Fruit blast",
-          "noteText": "Recipe for Disaster.",
-          "noteAutoComplete": false,
+          "inventoryHighlightItems": "Cocktail shaker, Pineapple, Lemon, Orange, Knife",
           "sectionId": "74a6d4a6-60e2-5524-a8c7-b48cbf5c18c6"
         },
         {
@@ -5587,6 +5583,11 @@
           "highlightEnabled": false,
           "npcKillCount": 0,
           "questComplete": false,
+          "worldPoint": {
+            "x": 2018,
+            "y": 5929,
+            "plane": 0
+          },
           "teleportMethod": "SPELL",
           "teleportSpell": "Soul Wars Minigame Teleport",
           "teleportDestination": {
@@ -5595,7 +5596,7 @@
             "plane": 0
           },
           "noteText": "Minigame teleport to Soul Wars, then the portal to Edgeville. Part 2 starts here.",
-          "noteAutoComplete": false,
+          "noteAutoComplete": true,
           "sectionId": "e885be8d-e818-5c9c-9071-f77f7598fbd5"
         }
       ]
