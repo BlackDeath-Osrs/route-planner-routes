@@ -5334,6 +5334,11 @@
           "highlightEnabled": true,
           "npcKillCount": 0,
           "questComplete": false,
+          "worldPoint": {
+            "x": 2614,
+            "y": 3294,
+            "plane": 0
+          },
           "skillingTargetNpc": "Aemad",
           "itemList": "20 Ball of wool",
           "sectionId": "8d893b7f-7397-54dc-a8a6-91c6994b4414"
