@@ -94,6 +94,39 @@
       "collapsed": false,
       "steps": [
         {
+          "name": "Wait in Death's Office",
+          "type": "LOCATION",
+          "targetId": -1,
+          "completed": false,
+          "itemMode": "BANK",
+          "questStopIndex": -1,
+          "transitionObjectId": -1,
+          "boardObjectId": -1,
+          "highlightEnabled": false,
+          "npcKillCount": 0,
+          "questComplete": false,
+          "worldPoint": {
+            "x": 3174,
+            "y": 5727,
+            "plane": 0
+          },
+          "noteText": "Hardcore Worlds open on 04 November at 11:00 UTC, confirmed by a broadcast. Wait here until then, and make sure you're Hardcore before the worlds open.",
+          "noteAutoComplete": false,
+          "sectionId": "0686be12-94e7-5554-8188-8d24db3a726d",
+          "areaFrom": {
+            "x": 3171,
+            "y": 5723,
+            "plane": 0
+          },
+          "areaTo": {
+            "x": 3181,
+            "y": 5730,
+            "plane": 0
+          },
+          "areaTiles": "0|3174,5723,8,1;3172,5724,10,1;3171,5725,11,4;3172,5729,10,1;3174,5730,8,1",
+          "highlightInAreaOnly": true
+        },
+        {
           "name": "Start Mudfoot's Big Adventure",
           "type": "LOCATION",
           "targetId": -1,
@@ -2673,7 +2706,18 @@
           },
           "skillingTargetNpc": "King Roald",
           "questName": "SHIELD_OF_ARRAV",
-          "sectionId": "460d85a4-650e-55da-bd60-2e70c69c5235"
+          "sectionId": "460d85a4-650e-55da-bd60-2e70c69c5235",
+          "areaFrom": {
+            "x": 3220,
+            "y": 3470,
+            "plane": 0
+          },
+          "highlightInAreaOnly": true,
+          "areaTo": {
+            "x": 3224,
+            "y": 3475,
+            "plane": 0
+          }
         },
         {
           "name": "Shield of Arrav lamp on Hitpoints",
