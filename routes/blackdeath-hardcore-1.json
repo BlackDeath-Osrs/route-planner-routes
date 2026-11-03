@@ -55,6 +55,22 @@
           "sectionId": "40bd29ac-1538-53ec-bcc1-0bc6983893cb"
         },
         {
+          "name": "Become Hardcore on Tutorial Island",
+          "type": "LOCATION",
+          "targetId": -1,
+          "completed": false,
+          "itemMode": "BANK",
+          "questStopIndex": -1,
+          "transitionObjectId": -1,
+          "boardObjectId": -1,
+          "highlightEnabled": false,
+          "npcKillCount": 0,
+          "questComplete": false,
+          "noteText": "Before you leave Tutorial Island, get Death's Delegate from the Iron Tutor. It makes you Hardcore and takes you to Death's Office, where you wait until the worlds open.",
+          "noteAutoComplete": false,
+          "sectionId": "40bd29ac-1538-53ec-bcc1-0bc6983893cb"
+        },
+        {
           "name": "Found a bug?",
           "type": "LOCATION",
           "targetId": -1,
@@ -78,6 +94,234 @@
       "collapsed": false,
       "steps": [
         {
+          "name": "Start Mudfoot's Big Adventure",
+          "type": "LOCATION",
+          "targetId": -1,
+          "completed": false,
+          "itemMode": "BANK",
+          "questStopIndex": -1,
+          "transitionObjectId": -1,
+          "boardObjectId": -1,
+          "highlightEnabled": true,
+          "npcKillCount": 0,
+          "questComplete": false,
+          "worldPoint": {
+            "x": 3217,
+            "y": 3238,
+            "plane": 0
+          },
+          "skillingTargetNpc": "Captain Harlan",
+          "dialogOptions": "1",
+          "sectionId": "0686be12-94e7-5554-8188-8d24db3a726d"
+        },
+        {
+          "name": "Talk to Mudfoot",
+          "type": "LOCATION",
+          "targetId": -1,
+          "completed": false,
+          "itemMode": "BANK",
+          "questStopIndex": -1,
+          "transitionObjectId": -1,
+          "boardObjectId": -1,
+          "highlightEnabled": true,
+          "npcKillCount": 0,
+          "questComplete": false,
+          "worldPoint": {
+            "x": 3249,
+            "y": 3248,
+            "plane": 0
+          },
+          "skillingTargetNpc": "Mudfoot",
+          "sectionId": "0686be12-94e7-5554-8188-8d24db3a726d"
+        },
+        {
+          "name": "Talk to Donie",
+          "type": "LOCATION",
+          "targetId": -1,
+          "completed": false,
+          "itemMode": "BANK",
+          "questStopIndex": -1,
+          "transitionObjectId": -1,
+          "boardObjectId": -1,
+          "highlightEnabled": true,
+          "npcKillCount": 0,
+          "questComplete": false,
+          "worldPoint": {
+            "x": 3220,
+            "y": 3248,
+            "plane": 0
+          },
+          "skillingTargetNpc": "Donie",
+          "dialogOptions": "2",
+          "sectionId": "0686be12-94e7-5554-8188-8d24db3a726d"
+        },
+        {
+          "name": "Find Mudfoot by the farm",
+          "type": "LOCATION",
+          "targetId": -1,
+          "completed": false,
+          "itemMode": "BANK",
+          "questStopIndex": -1,
+          "transitionObjectId": -1,
+          "boardObjectId": -1,
+          "highlightEnabled": true,
+          "npcKillCount": 0,
+          "questComplete": false,
+          "worldPoint": {
+            "x": 3171,
+            "y": 3288,
+            "plane": 0
+          },
+          "skillingTargetNpc": "Mudfoot",
+          "sectionId": "0686be12-94e7-5554-8188-8d24db3a726d"
+        },
+        {
+          "name": "Kill the outlaw archer",
+          "type": "LOCATION",
+          "targetId": -1,
+          "completed": false,
+          "itemMode": "BANK",
+          "questStopIndex": -1,
+          "transitionObjectId": -1,
+          "boardObjectId": -1,
+          "highlightEnabled": true,
+          "npcKillCount": 1,
+          "questComplete": false,
+          "worldPoint": {
+            "x": 3166,
+            "y": 3287,
+            "plane": 0
+          },
+          "npcHighlight": "Outlaw",
+          "noteText": "Level 6.",
+          "noteAutoComplete": false,
+          "sectionId": "0686be12-94e7-5554-8188-8d24db3a726d"
+        },
+        {
+          "name": "Take the bow and arrows",
+          "type": "LOCATION",
+          "targetId": -1,
+          "completed": false,
+          "itemMode": "PICKUP",
+          "questStopIndex": -1,
+          "transitionObjectId": -1,
+          "boardObjectId": -1,
+          "highlightEnabled": false,
+          "npcKillCount": 0,
+          "questComplete": false,
+          "worldPoint": {
+            "x": 3166,
+            "y": 3288,
+            "plane": 0
+          },
+          "itemList": "80 Bronze arrow, Shortbow",
+          "sectionId": "0686be12-94e7-5554-8188-8d24db3a726d"
+        },
+        {
+          "name": "Kill the outlaw mage",
+          "type": "LOCATION",
+          "targetId": -1,
+          "completed": false,
+          "itemMode": "BANK",
+          "questStopIndex": -1,
+          "transitionObjectId": -1,
+          "boardObjectId": -1,
+          "highlightEnabled": true,
+          "npcKillCount": 1,
+          "questComplete": false,
+          "worldPoint": {
+            "x": 3171,
+            "y": 3241,
+            "plane": 0
+          },
+          "npcHighlight": "Outlaw",
+          "noteText": "Level 6.",
+          "noteAutoComplete": false,
+          "sectionId": "0686be12-94e7-5554-8188-8d24db3a726d"
+        },
+        {
+          "name": "Take the staff and runes",
+          "type": "LOCATION",
+          "targetId": -1,
+          "completed": false,
+          "itemMode": "PICKUP",
+          "questStopIndex": -1,
+          "transitionObjectId": -1,
+          "boardObjectId": -1,
+          "highlightEnabled": false,
+          "npcKillCount": 0,
+          "questComplete": false,
+          "worldPoint": {
+            "x": 3171,
+            "y": 3241,
+            "plane": 0
+          },
+          "itemList": "80 Air rune, 80 Mind rune, Staff",
+          "sectionId": "0686be12-94e7-5554-8188-8d24db3a726d"
+        },
+        {
+          "name": "Confront the last outlaw",
+          "type": "LOCATION",
+          "targetId": -1,
+          "completed": false,
+          "itemMode": "BANK",
+          "questStopIndex": -1,
+          "transitionObjectId": -1,
+          "boardObjectId": -1,
+          "highlightEnabled": true,
+          "npcKillCount": 0,
+          "questComplete": false,
+          "worldPoint": {
+            "x": 3244,
+            "y": 3199,
+            "plane": 0
+          },
+          "skillingTargetNpc": "Outlaw",
+          "sectionId": "0686be12-94e7-5554-8188-8d24db3a726d"
+        },
+        {
+          "name": "Kill the outlaw warrior",
+          "type": "LOCATION",
+          "targetId": -1,
+          "completed": false,
+          "itemMode": "BANK",
+          "questStopIndex": -1,
+          "transitionObjectId": -1,
+          "boardObjectId": -1,
+          "highlightEnabled": true,
+          "npcKillCount": 1,
+          "questComplete": false,
+          "worldPoint": {
+            "x": 3244,
+            "y": 3199,
+            "plane": 0
+          },
+          "npcHighlight": "Outlaw",
+          "noteText": "Level 8. Wind Strike him with the runes you just got.",
+          "noteAutoComplete": false,
+          "sectionId": "0686be12-94e7-5554-8188-8d24db3a726d"
+        },
+        {
+          "name": "Take the iron scimitar and kiteshield",
+          "type": "LOCATION",
+          "targetId": -1,
+          "completed": false,
+          "itemMode": "PICKUP",
+          "questStopIndex": -1,
+          "transitionObjectId": -1,
+          "boardObjectId": -1,
+          "highlightEnabled": false,
+          "npcKillCount": 0,
+          "questComplete": false,
+          "worldPoint": {
+            "x": 3244,
+            "y": 3199,
+            "plane": 0
+          },
+          "itemList": "Iron scimitar, Iron kiteshield",
+          "sectionId": "0686be12-94e7-5554-8188-8d24db3a726d"
+        },
+        {
           "name": "Talk to Father Aereck",
           "type": "LOCATION",
           "targetId": -1,
@@ -99,7 +343,157 @@
           "questName": "THE_RESTLESS_GHOST",
           "noteText": "Starts The Restless Ghost.",
           "noteAutoComplete": false,
+          "sectionId": "0686be12-94e7-5554-8188-8d24db3a726d",
+          "highlightInAreaOnly": true,
+          "areaFrom": {
+            "x": 3238,
+            "y": 3204,
+            "plane": 0
+          },
+          "areaTiles": "0|3240,3204,8,5;3238,3209,10,3;3240,3212,8,4",
+          "areaTo": {
+            "x": 3247,
+            "y": 3215,
+            "plane": 0
+          }
+        },
+        {
+          "name": "Finish Mudfoot's Big Adventure",
+          "type": "LOCATION",
+          "targetId": -1,
+          "completed": false,
+          "itemMode": "BANK",
+          "questStopIndex": -1,
+          "transitionObjectId": -1,
+          "boardObjectId": -1,
+          "highlightEnabled": true,
+          "npcKillCount": 0,
+          "questComplete": false,
+          "worldPoint": {
+            "x": 3218,
+            "y": 3238,
+            "plane": 0
+          },
+          "skillingTargetNpc": "Captain Harlan",
+          "dialogOptions": "1,5",
+          "sectionId": "0686be12-94e7-5554-8188-8d24db3a726d",
+          "highlightInAreaOnly": true,
+          "areaFrom": {
+            "x": 3215,
+            "y": 3236,
+            "plane": 0
+          },
+          "areaTiles": "0|3215,3236,5,4;3216,3240,4,1;3217,3241,2,1",
+          "areaTo": {
+            "x": 3219,
+            "y": 3241,
+            "plane": 0
+          }
+        },
+        {
+          "name": "4 combat lamps on Hitpoints",
+          "type": "LOCATION",
+          "targetId": -1,
+          "completed": false,
+          "itemMode": "BANK",
+          "questStopIndex": -1,
+          "transitionObjectId": -1,
+          "boardObjectId": -1,
+          "highlightEnabled": false,
+          "npcKillCount": 0,
+          "questComplete": false,
+          "worldPoint": {
+            "x": 3218,
+            "y": 3238,
+            "plane": 0
+          },
+          "skillingSkill": "HITPOINTS",
+          "skillingGoalType": "XP_GAIN",
+          "skillingGoalValue": 2000,
+          "skillingStartXp": 0,
+          "skillingProgress": 0,
+          "noteText": "Combat lamps work on any combat skill, Prayer too. Use all 4 on Hitpoints: 2,000 XP takes you from 10 to 18 HP before any real fight.",
+          "noteAutoComplete": false,
           "sectionId": "0686be12-94e7-5554-8188-8d24db3a726d"
+        },
+        {
+          "name": "Drop your air and mind runes",
+          "type": "LOCATION",
+          "targetId": -1,
+          "completed": false,
+          "itemMode": "SELL",
+          "questStopIndex": -1,
+          "transitionObjectId": -1,
+          "boardObjectId": -1,
+          "highlightEnabled": false,
+          "npcKillCount": 0,
+          "questComplete": false,
+          "worldPoint": {
+            "x": 3218,
+            "y": 3238,
+            "plane": 0
+          },
+          "itemList": "Air rune, Mind rune",
+          "noteText": "Drop them next to Harlan so they're easy to pick back up.",
+          "noteAutoComplete": false,
+          "sectionId": "0686be12-94e7-5554-8188-8d24db3a726d"
+        },
+        {
+          "name": "Claim runes from Harlan",
+          "type": "LOCATION",
+          "targetId": -1,
+          "completed": false,
+          "itemMode": "PICKUP",
+          "questStopIndex": -1,
+          "transitionObjectId": -1,
+          "boardObjectId": -1,
+          "highlightEnabled": true,
+          "npcKillCount": 0,
+          "questComplete": false,
+          "worldPoint": {
+            "x": 3218,
+            "y": 3238,
+            "plane": 0
+          },
+          "skillingTargetNpc": "Captain Harlan",
+          "dialogOptions": "3,3",
+          "itemList": "Air rune, Mind rune",
+          "noteText": "You can claim more later (roughly every 30 minutes)",
+          "noteAutoComplete": true,
+          "sectionId": "0686be12-94e7-5554-8188-8d24db3a726d"
+        },
+        {
+          "name": "Pick your runes back up",
+          "type": "LOCATION",
+          "targetId": -1,
+          "completed": false,
+          "itemMode": "PICKUP",
+          "questStopIndex": -1,
+          "transitionObjectId": -1,
+          "boardObjectId": -1,
+          "highlightEnabled": false,
+          "npcKillCount": 0,
+          "questComplete": false,
+          "worldPoint": {
+            "x": 3218,
+            "y": 3238,
+            "plane": 0
+          },
+          "itemList": "Air rune, Mind rune",
+          "noteText": "Your dropped runes are still on the ground: you keep both lots.",
+          "noteAutoComplete": false,
+          "sectionId": "0686be12-94e7-5554-8188-8d24db3a726d",
+          "areaFrom": {
+            "x": 3215,
+            "y": 3236,
+            "plane": 0
+          },
+          "areaTo": {
+            "x": 3220,
+            "y": 3241,
+            "plane": 0
+          },
+          "highlightInAreaOnly": true
         },
         {
           "name": "Pickpocket a man or woman",
@@ -125,73 +519,6 @@
           "skillingStartXp": 0,
           "skillingProgress": 0,
           "noteText": "Lumbridge Easy Diary. Once is enough.",
-          "noteAutoComplete": false,
-          "sectionId": "0686be12-94e7-5554-8188-8d24db3a726d"
-        },
-        {
-          "name": "Drop your air and mind runes",
-          "type": "LOCATION",
-          "targetId": -1,
-          "completed": false,
-          "itemMode": "SELL",
-          "questStopIndex": -1,
-          "transitionObjectId": -1,
-          "boardObjectId": -1,
-          "highlightEnabled": false,
-          "npcKillCount": 0,
-          "questComplete": false,
-          "worldPoint": {
-            "x": 3217,
-            "y": 3238,
-            "plane": 0
-          },
-          "itemList": "Air rune, Mind rune",
-          "noteText": "Drop them next to the tutor so they're easy to pick back up.",
-          "noteAutoComplete": false,
-          "sectionId": "0686be12-94e7-5554-8188-8d24db3a726d"
-        },
-        {
-          "name": "Claim runes from the Magic tutor",
-          "type": "LOCATION",
-          "targetId": -1,
-          "completed": false,
-          "itemMode": "BANK",
-          "questStopIndex": -1,
-          "transitionObjectId": -1,
-          "boardObjectId": -1,
-          "highlightEnabled": true,
-          "npcKillCount": 0,
-          "questComplete": false,
-          "worldPoint": {
-            "x": 3217,
-            "y": 3238,
-            "plane": 0
-          },
-          "skillingTargetNpc": "Magic combat tutor",
-          "itemList": "30 Air rune, 30 Mind rune",
-          "noteText": "Mikasi gives 30 of each.",
-          "noteAutoComplete": false,
-          "sectionId": "0686be12-94e7-5554-8188-8d24db3a726d"
-        },
-        {
-          "name": "Pick your runes back up",
-          "type": "LOCATION",
-          "targetId": -1,
-          "completed": false,
-          "itemMode": "PICKUP",
-          "questStopIndex": -1,
-          "transitionObjectId": -1,
-          "boardObjectId": -1,
-          "highlightEnabled": false,
-          "npcKillCount": 0,
-          "questComplete": false,
-          "worldPoint": {
-            "x": 3217,
-            "y": 3238,
-            "plane": 0
-          },
-          "itemList": "Air rune, Mind rune",
-          "noteText": "Your dropped runes are still on the ground: you keep both lots.",
           "noteAutoComplete": false,
           "sectionId": "0686be12-94e7-5554-8188-8d24db3a726d"
         },
@@ -597,7 +924,7 @@
             "y": 9571,
             "plane": 0
           },
-          "skillingTargetNpc": "Sedridor",
+          "skillingTargetNpc": "Archmage Sedridor",
           "dialogOptions": "1,2,1",
           "questName": "RUNE_MYSTERIES",
           "sectionId": "f964ea09-c4e9-5830-8f7c-80cbf7a14d33"
@@ -1497,7 +1824,50 @@
           "skillingTargetNpc": "Romeo",
           "dialogOptions": "3,1",
           "questName": "ROMEO__JULIET",
-          "sectionId": "460d85a4-650e-55da-bd60-2e70c69c5235"
+          "sectionId": "460d85a4-650e-55da-bd60-2e70c69c5235",
+          "highlightInAreaOnly": true,
+          "areaFrom": {
+            "x": 3206,
+            "y": 3421,
+            "plane": 0
+          },
+          "areaTo": {
+            "x": 3220,
+            "y": 3435,
+            "plane": 0
+          }
+        },
+        {
+          "name": "Talk to Juliet",
+          "type": "LOCATION",
+          "targetId": -1,
+          "completed": false,
+          "itemMode": "BANK",
+          "questStopIndex": -1,
+          "transitionObjectId": -1,
+          "boardObjectId": -1,
+          "highlightEnabled": true,
+          "npcKillCount": 0,
+          "questComplete": false,
+          "worldPoint": {
+            "x": 3159,
+            "y": 3425,
+            "plane": 1
+          },
+          "skillingTargetNpc": "Juliet",
+          "questName": "ROMEO__JULIET",
+          "sectionId": "460d85a4-650e-55da-bd60-2e70c69c5235",
+          "areaFrom": {
+            "x": 3156,
+            "y": 3425,
+            "plane": 1
+          },
+          "highlightInAreaOnly": true,
+          "areaTo": {
+            "x": 3160,
+            "y": 3426,
+            "plane": 1
+          }
         },
         {
           "name": "Buy a newspaper",
@@ -1518,7 +1888,18 @@
           },
           "skillingTargetNpc": "Benny",
           "dialogOptions": "1,1",
-          "sectionId": "460d85a4-650e-55da-bd60-2e70c69c5235"
+          "sectionId": "460d85a4-650e-55da-bd60-2e70c69c5235",
+          "areaFrom": {
+            "x": 3219,
+            "y": 3430,
+            "plane": 0
+          },
+          "highlightInAreaOnly": true,
+          "areaTo": {
+            "x": 3223,
+            "y": 3437,
+            "plane": 0
+          }
         },
         {
           "name": "Gertrude's sons",
@@ -1540,7 +1921,18 @@
           "skillingTargetNpc": "Shilop",
           "dialogOptions": "2,2",
           "questName": "GERTRUDES_CAT",
-          "sectionId": "460d85a4-650e-55da-bd60-2e70c69c5235"
+          "sectionId": "460d85a4-650e-55da-bd60-2e70c69c5235",
+          "highlightInAreaOnly": true,
+          "areaFrom": {
+            "x": 3219,
+            "y": 3431,
+            "plane": 0
+          },
+          "areaTo": {
+            "x": 3223,
+            "y": 3437,
+            "plane": 0
+          }
         },
         {
           "name": "Children of the Sun",
@@ -1586,7 +1978,19 @@
           "skillingTargetNpc": "Sir Prysin",
           "dialogOptions": "3,1,2,2,1,1",
           "questName": "DEMON_SLAYER",
-          "sectionId": "460d85a4-650e-55da-bd60-2e70c69c5235"
+          "sectionId": "460d85a4-650e-55da-bd60-2e70c69c5235",
+          "highlightInAreaOnly": true,
+          "areaFrom": {
+            "x": 3200,
+            "y": 3470,
+            "plane": 0
+          },
+          "areaTiles": "0|3201,3470,5,1;3200,3471,7,3;3201,3474,5,1",
+          "areaTo": {
+            "x": 3206,
+            "y": 3474,
+            "plane": 0
+          }
         },
         {
           "name": "Captain Rovin",
@@ -1632,7 +2036,18 @@
           "questName": "SHIELD_OF_ARRAV",
           "noteText": "Search for the book, then talk to him again (1).",
           "noteAutoComplete": false,
-          "sectionId": "460d85a4-650e-55da-bd60-2e70c69c5235"
+          "sectionId": "460d85a4-650e-55da-bd60-2e70c69c5235",
+          "highlightInAreaOnly": true,
+          "areaFrom": {
+            "x": 3207,
+            "y": 3490,
+            "plane": 0
+          },
+          "areaTo": {
+            "x": 3211,
+            "y": 3497,
+            "plane": 0
+          }
         },
         {
           "name": "Palace kitchen: buckets and pie dish",
@@ -1788,6 +2203,72 @@
           "sectionId": "460d85a4-650e-55da-bd60-2e70c69c5235"
         },
         {
+          "name": "Father Lawrence",
+          "type": "LOCATION",
+          "targetId": -1,
+          "completed": false,
+          "itemMode": "BANK",
+          "questStopIndex": -1,
+          "transitionObjectId": -1,
+          "boardObjectId": -1,
+          "highlightEnabled": true,
+          "npcKillCount": 0,
+          "questComplete": false,
+          "skillingTargetNpc": "Father Lawrence",
+          "questName": "ROMEO__JULIET",
+          "sectionId": "460d85a4-650e-55da-bd60-2e70c69c5235",
+          "areaFrom": {
+            "x": 3252,
+            "y": 3481,
+            "plane": 0
+          },
+          "highlightInAreaOnly": true,
+          "areaTiles": "0|3252,3481,5,5;3252,3486,4,3",
+          "worldPoint": {
+            "x": 3254,
+            "y": 3484,
+            "plane": 0
+          },
+          "areaTo": {
+            "x": 3256,
+            "y": 3488,
+            "plane": 0
+          }
+        },
+        {
+          "name": "Talk to Baraek",
+          "type": "LOCATION",
+          "targetId": -1,
+          "completed": false,
+          "itemMode": "BANK",
+          "questStopIndex": -1,
+          "transitionObjectId": -1,
+          "boardObjectId": -1,
+          "highlightEnabled": true,
+          "npcKillCount": 0,
+          "questComplete": false,
+          "worldPoint": {
+            "x": 3217,
+            "y": 3434,
+            "plane": 0
+          },
+          "skillingTargetNpc": "Baraek",
+          "dialogOptions": "3,1",
+          "questName": "SHIELD_OF_ARRAV",
+          "sectionId": "460d85a4-650e-55da-bd60-2e70c69c5235",
+          "highlightInAreaOnly": true,
+          "areaFrom": {
+            "x": 3215,
+            "y": 3431,
+            "plane": 0
+          },
+          "areaTo": {
+            "x": 3221,
+            "y": 3438,
+            "plane": 0
+          }
+        },
+        {
           "name": "Demon Slayer key in the sewer",
           "type": "LOCATION",
           "targetId": -1,
@@ -1810,6 +2291,285 @@
           "sectionId": "460d85a4-650e-55da-bd60-2e70c69c5235"
         },
         {
+          "name": "Join the Phoenix Gang",
+          "type": "LOCATION",
+          "targetId": -1,
+          "completed": false,
+          "itemMode": "BANK",
+          "questStopIndex": -1,
+          "transitionObjectId": -1,
+          "boardObjectId": -1,
+          "highlightEnabled": true,
+          "npcKillCount": 0,
+          "questComplete": false,
+          "skillingTargetNpc": "Straven",
+          "questName": "SHIELD_OF_ARRAV",
+          "sectionId": "460d85a4-650e-55da-bd60-2e70c69c5235",
+          "areaFrom": {
+            "x": 3246,
+            "y": 9780,
+            "plane": 0
+          },
+          "highlightInAreaOnly": true,
+          "worldPoint": {
+            "x": 3247,
+            "y": 9781,
+            "plane": 0
+          },
+          "areaTo": {
+            "x": 3248,
+            "y": 9782,
+            "plane": 0
+          }
+        },
+        {
+          "name": "Kill Jonny the beard",
+          "type": "LOCATION",
+          "targetId": -1,
+          "completed": false,
+          "itemMode": "BANK",
+          "questStopIndex": -1,
+          "transitionObjectId": -1,
+          "boardObjectId": -1,
+          "highlightEnabled": true,
+          "npcKillCount": 1,
+          "questComplete": false,
+          "worldPoint": {
+            "x": 3223,
+            "y": 3398,
+            "plane": 0
+          },
+          "npcHighlight": "Jonny the beard",
+          "noteText": "Blue Moon Inn. Level 2: wind strike him from range.",
+          "noteAutoComplete": false,
+          "sectionId": "460d85a4-650e-55da-bd60-2e70c69c5235"
+        },
+        {
+          "name": "Take the intelligence report",
+          "type": "LOCATION",
+          "targetId": -1,
+          "completed": false,
+          "itemMode": "PICKUP",
+          "questStopIndex": -1,
+          "transitionObjectId": -1,
+          "boardObjectId": -1,
+          "highlightEnabled": false,
+          "npcKillCount": 0,
+          "questComplete": false,
+          "itemList": "Intelligence report",
+          "sectionId": "460d85a4-650e-55da-bd60-2e70c69c5235"
+        },
+        {
+          "name": "Give Straven the report",
+          "type": "LOCATION",
+          "targetId": -1,
+          "completed": false,
+          "itemMode": "BANK",
+          "questStopIndex": -1,
+          "transitionObjectId": -1,
+          "boardObjectId": -1,
+          "highlightEnabled": true,
+          "npcKillCount": 0,
+          "questComplete": false,
+          "skillingTargetNpc": "Straven",
+          "questName": "SHIELD_OF_ARRAV",
+          "sectionId": "460d85a4-650e-55da-bd60-2e70c69c5235",
+          "areaFrom": {
+            "x": 3246,
+            "y": 9780,
+            "plane": 0
+          },
+          "highlightInAreaOnly": true,
+          "worldPoint": {
+            "x": 3247,
+            "y": 9781,
+            "plane": 0
+          },
+          "areaTo": {
+            "x": 3248,
+            "y": 9782,
+            "plane": 0
+          }
+        },
+        {
+          "name": "Phoenix HQ: take the shield half",
+          "type": "LOCATION",
+          "targetId": -1,
+          "completed": false,
+          "itemMode": "PICKUP",
+          "questStopIndex": -1,
+          "transitionObjectId": -1,
+          "boardObjectId": -1,
+          "highlightEnabled": false,
+          "npcKillCount": 0,
+          "questComplete": false,
+          "itemList": "Broken shield",
+          "sectionId": "460d85a4-650e-55da-bd60-2e70c69c5235",
+          "areaFrom": {
+            "x": 3235,
+            "y": 9761,
+            "plane": 0
+          },
+          "highlightInAreaOnly": true,
+          "worldPoint": {
+            "x": 3235,
+            "y": 9761,
+            "plane": 0
+          },
+          "areaTo": {
+            "x": 3236,
+            "y": 9762,
+            "plane": 0
+          }
+        },
+        {
+          "name": "Pick cadava berries",
+          "type": "LOCATION",
+          "targetId": -1,
+          "completed": false,
+          "itemMode": "PICKUP",
+          "questStopIndex": -1,
+          "transitionObjectId": -1,
+          "boardObjectId": -1,
+          "highlightEnabled": true,
+          "npcKillCount": 0,
+          "questComplete": false,
+          "itemList": "Cadava berries",
+          "sectionId": "460d85a4-650e-55da-bd60-2e70c69c5235",
+          "skillingTargetObject": "cadava bush",
+          "areaFrom": {
+            "x": 3263,
+            "y": 3365,
+            "plane": 0
+          },
+          "highlightInAreaOnly": true,
+          "worldPoint": {
+            "x": 3263,
+            "y": 3366,
+            "plane": 0
+          },
+          "areaTo": {
+            "x": 3271,
+            "y": 3370,
+            "plane": 0
+          }
+        },
+        {
+          "name": "Apothecary: cadava potion",
+          "type": "LOCATION",
+          "targetId": -1,
+          "completed": false,
+          "itemMode": "PICKUP",
+          "questStopIndex": -1,
+          "transitionObjectId": -1,
+          "boardObjectId": -1,
+          "highlightEnabled": true,
+          "npcKillCount": 0,
+          "questComplete": false,
+          "skillingTargetNpc": "Apothecary",
+          "itemList": "Cadava potion",
+          "sectionId": "460d85a4-650e-55da-bd60-2e70c69c5235",
+          "highlightInAreaOnly": true,
+          "areaFrom": {
+            "x": 3192,
+            "y": 3402,
+            "plane": 0
+          },
+          "worldPoint": {
+            "x": 3195,
+            "y": 3404,
+            "plane": 0
+          },
+          "areaTo": {
+            "x": 3198,
+            "y": 3406,
+            "plane": 0
+          }
+        },
+        {
+          "name": "Give Juliet the potion",
+          "type": "LOCATION",
+          "targetId": -1,
+          "completed": false,
+          "itemMode": "BANK",
+          "questStopIndex": -1,
+          "transitionObjectId": -1,
+          "boardObjectId": -1,
+          "highlightEnabled": true,
+          "npcKillCount": 0,
+          "questComplete": false,
+          "worldPoint": {
+            "x": 3159,
+            "y": 3425,
+            "plane": 1
+          },
+          "skillingTargetNpc": "Juliet",
+          "questName": "ROMEO__JULIET",
+          "sectionId": "460d85a4-650e-55da-bd60-2e70c69c5235",
+          "areaFrom": {
+            "x": 3155,
+            "y": 3425,
+            "plane": 1
+          },
+          "highlightInAreaOnly": true,
+          "areaTo": {
+            "x": 3161,
+            "y": 3426,
+            "plane": 1
+          }
+        },
+        {
+          "name": "Finish Romeo & Juliet",
+          "type": "LOCATION",
+          "targetId": -1,
+          "completed": false,
+          "itemMode": "BANK",
+          "questStopIndex": -1,
+          "transitionObjectId": -1,
+          "boardObjectId": -1,
+          "highlightEnabled": true,
+          "npcKillCount": 0,
+          "questComplete": true,
+          "worldPoint": {
+            "x": 3211,
+            "y": 3423,
+            "plane": 0
+          },
+          "skillingTargetNpc": "Romeo",
+          "questName": "ROMEO__JULIET",
+          "sectionId": "460d85a4-650e-55da-bd60-2e70c69c5235",
+          "highlightInAreaOnly": true,
+          "areaFrom": {
+            "x": 3208,
+            "y": 3420,
+            "plane": 0
+          },
+          "areaTo": {
+            "x": 3219,
+            "y": 3435,
+            "plane": 0
+          }
+        },
+        {
+          "name": "Romeo & Juliet lamp on Hitpoints",
+          "type": "LOCATION",
+          "targetId": -1,
+          "completed": false,
+          "itemMode": "BANK",
+          "questStopIndex": -1,
+          "transitionObjectId": -1,
+          "boardObjectId": -1,
+          "highlightEnabled": false,
+          "npcKillCount": 0,
+          "questComplete": false,
+          "skillingSkill": "HITPOINTS",
+          "skillingGoalType": "XP_GAIN",
+          "skillingGoalValue": 500,
+          "skillingStartXp": 0,
+          "skillingProgress": 0,
+          "sectionId": "460d85a4-650e-55da-bd60-2e70c69c5235"
+        },
+        {
           "name": "Natural history quiz",
           "type": "LOCATION",
           "targetId": -1,
@@ -1827,9 +2587,111 @@
             "plane": 0
           },
           "skillingTargetNpc": "Orlando Smith",
+          "skillingSkill": "SLAYER",
+          "skillingGoalType": "LEVEL",
+          "skillingGoalValue": 9,
+          "skillingStartXp": 0,
+          "skillingProgress": 0,
           "dialogOptions": "1",
           "noteText": "Downstairs in the museum: 9 Slayer, 9 Hunter and 28 kudos.",
           "noteAutoComplete": false,
+          "sectionId": "460d85a4-650e-55da-bd60-2e70c69c5235"
+        },
+        {
+          "name": "Find a Black Arm Gang partner",
+          "type": "LOCATION",
+          "targetId": -1,
+          "completed": false,
+          "itemMode": "BANK",
+          "questStopIndex": -1,
+          "transitionObjectId": -1,
+          "boardObjectId": -1,
+          "highlightEnabled": false,
+          "npcKillCount": 0,
+          "questComplete": false,
+          "worldPoint": {
+            "x": 3212,
+            "y": 3428,
+            "plane": 0
+          },
+          "noteText": "Shield of Arrav needs a player from the Black Arm Gang. Launch day is the easiest time: ask in Varrock Square and swap shield halves so you both have both. No partner? Tick off the next 4 steps; Part 2 reminds you later.",
+          "noteAutoComplete": false,
+          "sectionId": "460d85a4-650e-55da-bd60-2e70c69c5235"
+        },
+        {
+          "name": "Swap shield halves",
+          "type": "LOCATION",
+          "targetId": -1,
+          "completed": false,
+          "itemMode": "BANK",
+          "questStopIndex": -1,
+          "transitionObjectId": -1,
+          "boardObjectId": -1,
+          "highlightEnabled": false,
+          "npcKillCount": 0,
+          "questComplete": false,
+          "itemList": "2 Broken shield",
+          "sectionId": "460d85a4-650e-55da-bd60-2e70c69c5235"
+        },
+        {
+          "name": "Curator Haig Halen",
+          "type": "LOCATION",
+          "targetId": -1,
+          "completed": false,
+          "itemMode": "BANK",
+          "questStopIndex": -1,
+          "transitionObjectId": -1,
+          "boardObjectId": -1,
+          "highlightEnabled": true,
+          "npcKillCount": 0,
+          "questComplete": false,
+          "worldPoint": {
+            "x": 3257,
+            "y": 3448,
+            "plane": 0
+          },
+          "skillingTargetNpc": "Curator Haig Halen",
+          "questName": "SHIELD_OF_ARRAV",
+          "sectionId": "460d85a4-650e-55da-bd60-2e70c69c5235"
+        },
+        {
+          "name": "Finish Shield of Arrav",
+          "type": "LOCATION",
+          "targetId": -1,
+          "completed": false,
+          "itemMode": "BANK",
+          "questStopIndex": -1,
+          "transitionObjectId": -1,
+          "boardObjectId": -1,
+          "highlightEnabled": true,
+          "npcKillCount": 0,
+          "questComplete": true,
+          "worldPoint": {
+            "x": 3221,
+            "y": 3473,
+            "plane": 0
+          },
+          "skillingTargetNpc": "King Roald",
+          "questName": "SHIELD_OF_ARRAV",
+          "sectionId": "460d85a4-650e-55da-bd60-2e70c69c5235"
+        },
+        {
+          "name": "Shield of Arrav lamp on Hitpoints",
+          "type": "LOCATION",
+          "targetId": -1,
+          "completed": false,
+          "itemMode": "BANK",
+          "questStopIndex": -1,
+          "transitionObjectId": -1,
+          "boardObjectId": -1,
+          "highlightEnabled": false,
+          "npcKillCount": 0,
+          "questComplete": false,
+          "skillingSkill": "HITPOINTS",
+          "skillingGoalType": "XP_GAIN",
+          "skillingGoalValue": 500,
+          "skillingStartXp": 0,
+          "skillingProgress": 0,
           "sectionId": "460d85a4-650e-55da-bd60-2e70c69c5235"
         },
         {
@@ -2590,7 +3452,7 @@
             "y": 9571,
             "plane": 0
           },
-          "skillingTargetNpc": "Sedridor",
+          "skillingTargetNpc": "Archmage Sedridor",
           "questName": "RUNE_MYSTERIES",
           "noteText": "Then teleport to the essence mine with him (Lumbridge Easy Diary).",
           "noteAutoComplete": false,
@@ -3602,28 +4464,6 @@
           "itemList": "Pirate message",
           "inventoryHighlightItems": "Chest key",
           "questName": "PIRATES_TREASURE",
-          "sectionId": "f6cd55eb-c648-5d31-938e-879282e5e8ec"
-        },
-        {
-          "name": "Talk to Baraek",
-          "type": "LOCATION",
-          "targetId": -1,
-          "completed": false,
-          "itemMode": "BANK",
-          "questStopIndex": -1,
-          "transitionObjectId": -1,
-          "boardObjectId": -1,
-          "highlightEnabled": true,
-          "npcKillCount": 0,
-          "questComplete": false,
-          "worldPoint": {
-            "x": 3217,
-            "y": 3434,
-            "plane": 0
-          },
-          "skillingTargetNpc": "Baraek",
-          "dialogOptions": "3,1",
-          "questName": "SHIELD_OF_ARRAV",
           "sectionId": "f6cd55eb-c648-5d31-938e-879282e5e8ec"
         },
         {
