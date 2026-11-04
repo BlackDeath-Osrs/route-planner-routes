@@ -114,7 +114,7 @@
           "noteAutoComplete": false,
           "sectionId": "0686be12-94e7-5554-8188-8d24db3a726d",
           "areaFrom": {
-            "x": 3171,
+            "x": 3170,
             "y": 5723,
             "plane": 0
           },
@@ -123,7 +123,7 @@
             "y": 5730,
             "plane": 0
           },
-          "areaTiles": "0|3174,5723,8,1;3172,5724,10,1;3171,5725,11,4;3172,5729,10,1;3174,5730,8,1",
+          "areaTiles": "0|3174,5723,8,1;3172,5724,10,1;3170,5725,12,4;3172,5729,10,1;3174,5730,8,1",
           "highlightInAreaOnly": true
         },
         {
@@ -450,28 +450,6 @@
           "sectionId": "0686be12-94e7-5554-8188-8d24db3a726d"
         },
         {
-          "name": "Drop your air and mind runes",
-          "type": "LOCATION",
-          "targetId": -1,
-          "completed": false,
-          "itemMode": "SELL",
-          "questStopIndex": -1,
-          "transitionObjectId": -1,
-          "boardObjectId": -1,
-          "highlightEnabled": false,
-          "npcKillCount": 0,
-          "questComplete": false,
-          "worldPoint": {
-            "x": 3218,
-            "y": 3238,
-            "plane": 0
-          },
-          "itemList": "Air rune, Mind rune",
-          "noteText": "Drop them next to Harlan so they're easy to pick back up.",
-          "noteAutoComplete": false,
-          "sectionId": "0686be12-94e7-5554-8188-8d24db3a726d"
-        },
-        {
           "name": "Claim runes from Harlan",
           "type": "LOCATION",
           "targetId": -1,
@@ -494,39 +472,6 @@
           "noteText": "You can claim more later (roughly every 30 minutes)",
           "noteAutoComplete": true,
           "sectionId": "0686be12-94e7-5554-8188-8d24db3a726d"
-        },
-        {
-          "name": "Pick your runes back up",
-          "type": "LOCATION",
-          "targetId": -1,
-          "completed": false,
-          "itemMode": "PICKUP",
-          "questStopIndex": -1,
-          "transitionObjectId": -1,
-          "boardObjectId": -1,
-          "highlightEnabled": false,
-          "npcKillCount": 0,
-          "questComplete": false,
-          "worldPoint": {
-            "x": 3218,
-            "y": 3238,
-            "plane": 0
-          },
-          "itemList": "Air rune, Mind rune",
-          "noteText": "Your dropped runes are still on the ground: you keep both lots.",
-          "noteAutoComplete": false,
-          "sectionId": "0686be12-94e7-5554-8188-8d24db3a726d",
-          "areaFrom": {
-            "x": 3215,
-            "y": 3236,
-            "plane": 0
-          },
-          "areaTo": {
-            "x": 3220,
-            "y": 3241,
-            "plane": 0
-          },
-          "highlightInAreaOnly": true
         },
         {
           "name": "Pickpocket a man or woman",
