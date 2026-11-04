@@ -22,7 +22,7 @@ pull request here.
 - **No links of any kind** in any text field (route/section/step names, notes, item lists,
   NPC highlights, dialogue options). This is enforced by the plugin itself on import as well, but
   a submission containing one will be rejected outright rather than edited.
-- **Reasonable size**: routes are capped at 1500 steps; names and notes have their own length
+- **Reasonable size**: routes are capped at 10,000 steps (15 MB); names and notes have their own length
   limits. A route that's testing those limits is probably doing too much in one file — consider
   splitting it.
 - **Accurate, honest content.** A route's name and description should describe what it actually

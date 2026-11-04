@@ -7,7 +7,7 @@
       "collapsed": true,
       "steps": [
         {
-          "name": "Explorer\u0027s Ring Teleport",
+          "name": "Explorer's Ring Teleport",
           "type": "LOCATION",
           "worldPoint": {
             "x": 3053,
@@ -30,7 +30,7 @@
           "npcKillCount": 0
         },
         {
-          "name": "Go To Patch",
+          "name": "Harvest and replant the herb patch at Falador",
           "type": "LOCATION",
           "worldPoint": {
             "x": 3054,
@@ -49,8 +49,10 @@
           "skillingStartXp": 0,
           "skillingProgress": 0,
           "transitionObjectId": 0,
-          "highlightEnabled": false,
-          "npcKillCount": 0
+          "highlightEnabled": true,
+          "npcKillCount": 0,
+          "farmPatchId": -1,
+          "farmReplant": true
         }
       ]
     },
@@ -83,7 +85,7 @@
           "npcKillCount": 0
         },
         {
-          "name": "Go To Patch",
+          "name": "Harvest and replant the herb patch at Morytania",
           "type": "LOCATION",
           "worldPoint": {
             "x": 3603,
@@ -102,8 +104,10 @@
           "skillingStartXp": 0,
           "skillingProgress": 0,
           "transitionObjectId": 0,
-          "highlightEnabled": false,
-          "npcKillCount": 0
+          "highlightEnabled": true,
+          "npcKillCount": 0,
+          "farmPatchId": -1,
+          "farmReplant": true
         }
       ]
     },
@@ -113,7 +117,7 @@
       "collapsed": true,
       "steps": [
         {
-          "name": "Tele House -\u003e Nexus -\u003e 3",
+          "name": "Tele House -> Nexus -> 3",
           "type": "LOCATION",
           "worldPoint": {
             "x": 2800,
@@ -143,7 +147,7 @@
           "npcKillCount": 0
         },
         {
-          "name": "Go To Patch",
+          "name": "Harvest and replant the herb patch at Catherby",
           "type": "LOCATION",
           "worldPoint": {
             "x": 2814,
@@ -162,8 +166,10 @@
           "skillingStartXp": 0,
           "skillingProgress": 0,
           "transitionObjectId": 0,
-          "highlightEnabled": false,
-          "npcKillCount": 0
+          "highlightEnabled": true,
+          "npcKillCount": 0,
+          "farmPatchId": -1,
+          "farmReplant": true
         }
       ]
     },
@@ -196,7 +202,7 @@
           "npcKillCount": 0
         },
         {
-          "name": "Go To Patch",
+          "name": "Harvest and replant the herb patch at Ardougne",
           "type": "LOCATION",
           "worldPoint": {
             "x": 2669,
@@ -215,8 +221,10 @@
           "skillingStartXp": 0,
           "skillingProgress": 0,
           "transitionObjectId": 0,
-          "highlightEnabled": false,
-          "npcKillCount": 0
+          "highlightEnabled": true,
+          "npcKillCount": 0,
+          "farmPatchId": -1,
+          "farmReplant": true
         }
       ]
     },
@@ -226,7 +234,7 @@
       "collapsed": true,
       "steps": [
         {
-          "name": "Tele House -\u003e Xeric Talisman -\u003e 2",
+          "name": "Tele House -> Xeric Talisman -> 2",
           "type": "LOCATION",
           "worldPoint": {
             "x": 1752,
@@ -256,7 +264,7 @@
           "npcKillCount": 0
         },
         {
-          "name": "Go To Patch",
+          "name": "Harvest and replant the herb patch at Hosidius",
           "type": "LOCATION",
           "worldPoint": {
             "x": 1741,
@@ -275,8 +283,10 @@
           "skillingStartXp": 0,
           "skillingProgress": 0,
           "transitionObjectId": 0,
-          "highlightEnabled": false,
-          "npcKillCount": 0
+          "highlightEnabled": true,
+          "npcKillCount": 0,
+          "farmPatchId": -1,
+          "farmReplant": true
         }
       ]
     },
@@ -309,7 +319,7 @@
           "npcKillCount": 0
         },
         {
-          "name": "Go To Patch",
+          "name": "Harvest and replant the herb patch at Troll Stronghold",
           "type": "LOCATION",
           "worldPoint": {
             "x": 2827,
@@ -328,8 +338,10 @@
           "skillingStartXp": 0,
           "skillingProgress": 0,
           "transitionObjectId": 0,
-          "highlightEnabled": false,
-          "npcKillCount": 0
+          "highlightEnabled": true,
+          "npcKillCount": 0,
+          "farmPatchId": -1,
+          "farmReplant": true
         }
       ]
     },
@@ -362,7 +374,7 @@
           "npcKillCount": 0
         },
         {
-          "name": "Go To Patch",
+          "name": "Harvest and replant the herb patch at Weiss",
           "type": "LOCATION",
           "worldPoint": {
             "x": 2847,
@@ -381,8 +393,10 @@
           "skillingStartXp": 0,
           "skillingProgress": 0,
           "transitionObjectId": 0,
-          "highlightEnabled": false,
-          "npcKillCount": 0
+          "highlightEnabled": true,
+          "npcKillCount": 0,
+          "farmPatchId": -1,
+          "farmReplant": true
         }
       ]
     },
@@ -439,7 +453,7 @@
           "npcKillCount": 0
         },
         {
-          "name": "Go To Patch",
+          "name": "Harvest and replant the herb patch at Ortus Farm",
           "type": "LOCATION",
           "worldPoint": {
             "x": 1583,
@@ -458,8 +472,10 @@
           "skillingStartXp": 0,
           "skillingProgress": 0,
           "transitionObjectId": 0,
-          "highlightEnabled": false,
-          "npcKillCount": 0
+          "highlightEnabled": true,
+          "npcKillCount": 0,
+          "farmPatchId": -1,
+          "farmReplant": true
         }
       ]
     },
@@ -492,7 +508,7 @@
           "npcKillCount": 0
         },
         {
-          "name": "Go To Patch",
+          "name": "Harvest and replant the herb patch at Prifddinas",
           "type": "LOCATION",
           "worldPoint": {
             "x": 3294,
@@ -511,8 +527,10 @@
           "skillingStartXp": 0,
           "skillingProgress": 0,
           "transitionObjectId": -1,
-          "highlightEnabled": false,
-          "npcKillCount": 0
+          "highlightEnabled": true,
+          "npcKillCount": 0,
+          "farmPatchId": -1,
+          "farmReplant": true
         }
       ]
     },
@@ -522,7 +540,7 @@
       "collapsed": true,
       "steps": [
         {
-          "name": "Mos le\u0027harmless teleport scroll",
+          "name": "Mos le'harmless teleport scroll",
           "type": "LOCATION",
           "worldPoint": {
             "x": 3698,
@@ -568,7 +586,7 @@
           "npcKillCount": 0
         },
         {
-          "name": "Go To Patch",
+          "name": "Harvest and replant the herb patch at Harmony Island",
           "type": "LOCATION",
           "worldPoint": {
             "x": 3790,
@@ -587,8 +605,10 @@
           "skillingStartXp": 0,
           "skillingProgress": 0,
           "transitionObjectId": -1,
-          "highlightEnabled": false,
-          "npcKillCount": 0
+          "highlightEnabled": true,
+          "npcKillCount": 0,
+          "farmPatchId": -1,
+          "farmReplant": true
         }
       ]
     },
@@ -598,7 +618,7 @@
       "collapsed": true,
       "steps": [
         {
-          "name": "Tele House -\u003e Jewlery -\u003e F",
+          "name": "Tele House -> Jewlery -> F",
           "type": "LOCATION",
           "worldPoint": {
             "x": 1249,
@@ -628,7 +648,7 @@
           "npcKillCount": 0
         },
         {
-          "name": "Go To Patch",
+          "name": "Harvest and replant the herb patch at Farming Guild",
           "type": "LOCATION",
           "worldPoint": {
             "x": 1239,
@@ -647,8 +667,10 @@
           "skillingStartXp": 0,
           "skillingProgress": 0,
           "transitionObjectId": 0,
-          "highlightEnabled": false,
-          "npcKillCount": 0
+          "highlightEnabled": true,
+          "npcKillCount": 0,
+          "farmPatchId": -1,
+          "farmReplant": true
         },
         {
           "name": "Allotments",

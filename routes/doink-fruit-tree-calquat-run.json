@@ -30,7 +30,7 @@
           "npcKillCount": 0
         },
         {
-          "name": "Go To Patch",
+          "name": "Check and replant the fruit tree patch at Gnome Stronghold",
           "type": "LOCATION",
           "worldPoint": {
             "x": 2474,
@@ -49,8 +49,10 @@
           "skillingStartXp": 0,
           "skillingProgress": 0,
           "transitionObjectId": 0,
-          "highlightEnabled": false,
-          "npcKillCount": 0
+          "highlightEnabled": true,
+          "npcKillCount": 0,
+          "farmPatchId": -1,
+          "farmReplant": true
         }
       ]
     },
@@ -83,7 +85,7 @@
           "npcKillCount": 0
         },
         {
-          "name": "Go To Patch",
+          "name": "Check and replant the fruit tree patch at Tree Gnome Village",
           "type": "LOCATION",
           "worldPoint": {
             "x": 2491,
@@ -102,8 +104,10 @@
           "skillingStartXp": 0,
           "skillingProgress": 0,
           "transitionObjectId": 0,
-          "highlightEnabled": false,
-          "npcKillCount": 0
+          "highlightEnabled": true,
+          "npcKillCount": 0,
+          "farmPatchId": -1,
+          "farmReplant": true
         }
       ]
     },
@@ -113,7 +117,7 @@
       "collapsed": true,
       "steps": [
         {
-          "name": "Tele House -\u003e Nexus -\u003e 3",
+          "name": "Tele House -> Nexus -> 3",
           "type": "LOCATION",
           "worldPoint": {
             "x": 2801,
@@ -143,7 +147,7 @@
           "npcKillCount": 0
         },
         {
-          "name": "Go To Patch",
+          "name": "Check and replant the fruit tree patch at Catherby",
           "type": "LOCATION",
           "worldPoint": {
             "x": 2859,
@@ -162,8 +166,10 @@
           "skillingStartXp": 0,
           "skillingProgress": 0,
           "transitionObjectId": 0,
-          "highlightEnabled": false,
-          "npcKillCount": 0
+          "highlightEnabled": true,
+          "npcKillCount": 0,
+          "farmPatchId": -1,
+          "farmReplant": true
         }
       ]
     },
@@ -173,7 +179,7 @@
       "collapsed": true,
       "steps": [
         {
-          "name": "Crystal Seed -\u003e Lletya",
+          "name": "Crystal Seed -> Lletya",
           "type": "LOCATION",
           "worldPoint": {
             "x": 2331,
@@ -196,7 +202,7 @@
           "npcKillCount": 0
         },
         {
-          "name": "Go To Patch",
+          "name": "Check and replant the fruit tree patch at Lletya",
           "type": "LOCATION",
           "worldPoint": {
             "x": 2345,
@@ -215,8 +221,10 @@
           "skillingStartXp": 0,
           "skillingProgress": 0,
           "transitionObjectId": 0,
-          "highlightEnabled": false,
-          "npcKillCount": 0
+          "highlightEnabled": true,
+          "npcKillCount": 0,
+          "farmPatchId": -1,
+          "farmReplant": true
         }
       ]
     },
@@ -249,7 +257,7 @@
           "npcKillCount": 0
         },
         {
-          "name": "Go To Patch",
+          "name": "Check and replant the fruit tree patch at Brimhaven",
           "type": "LOCATION",
           "worldPoint": {
             "x": 2765,
@@ -268,11 +276,13 @@
           "skillingStartXp": 0,
           "skillingProgress": 0,
           "transitionObjectId": 0,
-          "highlightEnabled": false,
-          "npcKillCount": 0
+          "highlightEnabled": true,
+          "npcKillCount": 0,
+          "farmPatchId": -1,
+          "farmReplant": true
         },
         {
-          "name": "Go To Patch",
+          "name": "Check and replant the calquat patch at Tai Bwo Wannai",
           "type": "LOCATION",
           "worldPoint": {
             "x": 2795,
@@ -291,8 +301,10 @@
           "skillingStartXp": 0,
           "skillingProgress": 0,
           "transitionObjectId": 0,
-          "highlightEnabled": false,
-          "npcKillCount": 0
+          "highlightEnabled": true,
+          "npcKillCount": 0,
+          "farmPatchId": -1,
+          "farmReplant": true
         }
       ]
     },
@@ -302,7 +314,7 @@
       "collapsed": true,
       "steps": [
         {
-          "name": "Tele House -\u003e Fairy Ring -\u003e CJQ",
+          "name": "Tele House -> Fairy Ring -> CJQ",
           "type": "LOCATION",
           "worldPoint": {
             "x": 3178,
@@ -355,7 +367,7 @@
           "npcKillCount": 0
         },
         {
-          "name": "Go To Patch",
+          "name": "Check and replant the patch at the Summer Shore",
           "type": "LOCATION",
           "worldPoint": {
             "x": 3128,
@@ -374,8 +386,10 @@
           "skillingStartXp": 0,
           "skillingProgress": 0,
           "transitionObjectId": 0,
-          "highlightEnabled": false,
-          "npcKillCount": 0
+          "highlightEnabled": true,
+          "npcKillCount": 0,
+          "farmPatchId": -1,
+          "farmReplant": true
         }
       ]
     },
@@ -385,7 +399,7 @@
       "collapsed": true,
       "steps": [
         {
-          "name": "Pendant -\u003e Kastori",
+          "name": "Pendant -> Kastori",
           "type": "LOCATION",
           "worldPoint": {
             "x": 1368,
@@ -408,7 +422,7 @@
           "npcKillCount": 0
         },
         {
-          "name": "Go To Patch",
+          "name": "Check and replant the patch at Kastori",
           "type": "LOCATION",
           "worldPoint": {
             "x": 1351,
@@ -427,11 +441,13 @@
           "skillingStartXp": 0,
           "skillingProgress": 0,
           "transitionObjectId": 0,
-          "highlightEnabled": false,
-          "npcKillCount": 0
+          "highlightEnabled": true,
+          "npcKillCount": 0,
+          "farmPatchId": -1,
+          "farmReplant": true
         },
         {
-          "name": "Go To Patch",
+          "name": "Check and replant the second patch at Kastori",
           "type": "LOCATION",
           "worldPoint": {
             "x": 1365,
@@ -450,8 +466,10 @@
           "skillingStartXp": 0,
           "skillingProgress": 0,
           "transitionObjectId": 0,
-          "highlightEnabled": false,
-          "npcKillCount": 0
+          "highlightEnabled": true,
+          "npcKillCount": 0,
+          "farmPatchId": -1,
+          "farmReplant": true
         }
       ]
     },
@@ -461,7 +479,7 @@
       "collapsed": true,
       "steps": [
         {
-          "name": "Tele House -\u003e Jewlery -\u003e F",
+          "name": "Tele House -> Jewlery -> F",
           "type": "LOCATION",
           "worldPoint": {
             "x": 1248,
@@ -491,7 +509,7 @@
           "npcKillCount": 0
         },
         {
-          "name": "Go To Patch",
+          "name": "Check and replant the fruit tree patch at Farming Guild",
           "type": "LOCATION",
           "worldPoint": {
             "x": 1243,
@@ -510,8 +528,10 @@
           "skillingStartXp": 0,
           "skillingProgress": 0,
           "transitionObjectId": 0,
-          "highlightEnabled": false,
-          "npcKillCount": 0
+          "highlightEnabled": true,
+          "npcKillCount": 0,
+          "farmPatchId": -1,
+          "farmReplant": true
         }
       ]
     }

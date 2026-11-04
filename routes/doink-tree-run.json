@@ -7,7 +7,7 @@
       "collapsed": false,
       "steps": [
         {
-          "name": "Go To Patch",
+          "name": "Check and replant the tree patch at Farming Guild",
           "type": "LOCATION",
           "worldPoint": {
             "x": 1232,
@@ -26,8 +26,10 @@
           "skillingStartXp": 0,
           "skillingProgress": 0,
           "transitionObjectId": 0,
-          "highlightEnabled": false,
-          "npcKillCount": 0
+          "highlightEnabled": true,
+          "npcKillCount": 0,
+          "farmPatchId": -1,
+          "farmReplant": true
         }
       ]
     },
@@ -61,7 +63,7 @@
           "npcKillCount": 0
         },
         {
-          "name": "Go To Patch",
+          "name": "Check and replant the tree patch at Lumbridge",
           "type": "LOCATION",
           "worldPoint": {
             "x": 3193,
@@ -80,8 +82,10 @@
           "skillingStartXp": 0,
           "skillingProgress": 0,
           "transitionObjectId": 0,
-          "highlightEnabled": false,
-          "npcKillCount": 0
+          "highlightEnabled": true,
+          "npcKillCount": 0,
+          "farmPatchId": -1,
+          "farmReplant": true
         }
       ]
     },
@@ -115,7 +119,7 @@
           "npcKillCount": 0
         },
         {
-          "name": "Go To Patch",
+          "name": "Check and replant the tree patch at Varrock",
           "type": "LOCATION",
           "worldPoint": {
             "x": 3227,
@@ -134,8 +138,10 @@
           "skillingStartXp": 0,
           "skillingProgress": 0,
           "transitionObjectId": 0,
-          "highlightEnabled": false,
-          "npcKillCount": 0
+          "highlightEnabled": true,
+          "npcKillCount": 0,
+          "farmPatchId": -1,
+          "farmReplant": true
         }
       ]
     },
@@ -169,7 +175,7 @@
           "npcKillCount": 0
         },
         {
-          "name": "Go To Patch",
+          "name": "Check and replant the tree patch at Falador",
           "type": "LOCATION",
           "worldPoint": {
             "x": 3002,
@@ -188,8 +194,10 @@
           "skillingStartXp": 0,
           "skillingProgress": 0,
           "transitionObjectId": 0,
-          "highlightEnabled": false,
-          "npcKillCount": 0
+          "highlightEnabled": true,
+          "npcKillCount": 0,
+          "farmPatchId": -1,
+          "farmReplant": true
         }
       ]
     },
@@ -222,7 +230,7 @@
           "npcKillCount": 0
         },
         {
-          "name": "Go To Patch",
+          "name": "Check and replant the tree patch at Taverly",
           "type": "LOCATION",
           "worldPoint": {
             "x": 2934,
@@ -241,8 +249,10 @@
           "skillingStartXp": 0,
           "skillingProgress": 0,
           "transitionObjectId": 0,
-          "highlightEnabled": false,
-          "npcKillCount": 0
+          "highlightEnabled": true,
+          "npcKillCount": 0,
+          "farmPatchId": -1,
+          "farmReplant": true
         }
       ]
     },
@@ -252,7 +262,7 @@
       "collapsed": false,
       "steps": [
         {
-          "name": "Slayer Ring -\u003e Gnome Stronghold",
+          "name": "Slayer Ring -> Gnome Stronghold",
           "type": "LOCATION",
           "worldPoint": {
             "x": 2433,
@@ -275,7 +285,7 @@
           "npcKillCount": 0
         },
         {
-          "name": "Go To Patch",
+          "name": "Check and replant the tree patch at Gnome Stronghold",
           "type": "LOCATION",
           "worldPoint": {
             "x": 2436,
@@ -294,8 +304,10 @@
           "skillingStartXp": 0,
           "skillingProgress": 0,
           "transitionObjectId": 0,
-          "highlightEnabled": false,
-          "npcKillCount": 0
+          "highlightEnabled": true,
+          "npcKillCount": 0,
+          "farmPatchId": -1,
+          "farmReplant": true
         }
       ]
     },
@@ -305,7 +317,7 @@
       "collapsed": false,
       "steps": [
         {
-          "name": "Pendant -\u003e Nemus Retreat",
+          "name": "Pendant -> Nemus Retreat",
           "type": "LOCATION",
           "worldPoint": {
             "x": 1364,
@@ -328,7 +340,7 @@
           "npcKillCount": 0
         },
         {
-          "name": "Go To Patch",
+          "name": "Check and replant the tree patch at Auburn Valley",
           "type": "LOCATION",
           "worldPoint": {
             "x": 1366,
@@ -347,8 +359,10 @@
           "skillingStartXp": 0,
           "skillingProgress": 0,
           "transitionObjectId": 0,
-          "highlightEnabled": false,
-          "npcKillCount": 0
+          "highlightEnabled": true,
+          "npcKillCount": 0,
+          "farmPatchId": -1,
+          "farmReplant": true
         },
         {
           "name": "Bank",
