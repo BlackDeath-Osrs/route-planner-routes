@@ -106,7 +106,7 @@
           "npcKillCount": 0,
           "questComplete": false,
           "worldPoint": {
-            "x": 3174,
+            "x": 3176,
             "y": 5727,
             "plane": 0
           },
@@ -1176,7 +1176,7 @@
           },
           "skillingTargetNpc": "Fortunato",
           "itemList": "10 Jug of wine",
-          "noteText": "5 per world: hop once. Read the notice board next to him to start A Porcine of Interest.",
+          "noteText": "5 per world: hop once.",
           "noteAutoComplete": false,
           "sectionId": "75a47d7d-f19f-5092-9418-b877036af207"
         },
@@ -1848,6 +1848,38 @@
           }
         },
         {
+          "name": "Talk to Romeo again",
+          "type": "LOCATION",
+          "targetId": -1,
+          "completed": false,
+          "itemMode": "BANK",
+          "questStopIndex": -1,
+          "transitionObjectId": -1,
+          "boardObjectId": -1,
+          "highlightEnabled": true,
+          "npcKillCount": 0,
+          "questComplete": false,
+          "worldPoint": {
+            "x": 3211,
+            "y": 3423,
+            "plane": 0
+          },
+          "skillingTargetNpc": "Romeo",
+          "questName": "ROMEO__JULIET",
+          "sectionId": "460d85a4-650e-55da-bd60-2e70c69c5235",
+          "highlightInAreaOnly": true,
+          "areaFrom": {
+            "x": 3206,
+            "y": 3421,
+            "plane": 0
+          },
+          "areaTo": {
+            "x": 3220,
+            "y": 3435,
+            "plane": 0
+          }
+        },
+        {
           "name": "Buy a newspaper",
           "type": "LOCATION",
           "targetId": -1,
@@ -1925,8 +1957,8 @@
           "npcKillCount": 0,
           "questComplete": false,
           "worldPoint": {
-            "x": 3238,
-            "y": 3433,
+            "x": 3224,
+            "y": 3426,
             "plane": 0
           },
           "skillingTargetNpc": "Noah",
@@ -1934,7 +1966,18 @@
           "questName": "CHILDREN_OF_THE_SUN",
           "noteText": "Follow Quest Helper to the end.",
           "noteAutoComplete": false,
-          "sectionId": "460d85a4-650e-55da-bd60-2e70c69c5235"
+          "sectionId": "460d85a4-650e-55da-bd60-2e70c69c5235",
+          "areaTo": {
+            "x": 3225,
+            "y": 3427,
+            "plane": 0
+          },
+          "areaFrom": {
+            "x": 3223,
+            "y": 3426,
+            "plane": 0
+          },
+          "highlightInAreaOnly": true
         },
         {
           "name": "Sir Prysin",
@@ -2040,14 +2083,25 @@
           "npcKillCount": 0,
           "questComplete": false,
           "worldPoint": {
-            "x": 3225,
-            "y": 3495,
+            "x": 3222,
+            "y": 3494,
             "plane": 1
           },
-          "itemList": "2 Bucket, Pie dish",
+          "itemList": "2 Bucket,Pie dish",
           "noteText": "Upstairs in the palace kitchen. The pie dish is for The Knight's Sword.",
           "noteAutoComplete": false,
-          "sectionId": "460d85a4-650e-55da-bd60-2e70c69c5235"
+          "sectionId": "460d85a4-650e-55da-bd60-2e70c69c5235",
+          "areaTo": {
+            "x": 3224,
+            "y": 3497,
+            "plane": 1
+          },
+          "areaFrom": {
+            "x": 3221,
+            "y": 3491,
+            "plane": 1
+          },
+          "highlightInAreaOnly": true
         },
         {
           "name": "Fill a bucket downstairs",
@@ -2651,18 +2705,7 @@
           },
           "skillingTargetNpc": "King Roald",
           "questName": "SHIELD_OF_ARRAV",
-          "sectionId": "460d85a4-650e-55da-bd60-2e70c69c5235",
-          "areaFrom": {
-            "x": 3220,
-            "y": 3470,
-            "plane": 0
-          },
-          "highlightInAreaOnly": true,
-          "areaTo": {
-            "x": 3224,
-            "y": 3475,
-            "plane": 0
-          }
+          "sectionId": "460d85a4-650e-55da-bd60-2e70c69c5235"
         },
         {
           "name": "Shield of Arrav lamp on Hitpoints",
@@ -2854,11 +2897,32 @@
             "y": 3491,
             "plane": 0
           },
-          "noteText": "Make 10 planks and the 3 waxwood planks. Main account: skip B0aty's 2,100 arrowshafts.",
+          "noteText": "Make 10 planks and the 3 waxwood planks. Then fletch arrowshafts to 10 Fletching: The Tourist Trap (Bank 13) needs it.",
           "noteAutoComplete": false,
           "sectionId": "d7cd9577-dfe7-52ed-a2fd-e12255176d00",
           "itemList": "10 plank,3 waxwood plank,5 Bolt of cloth,100 Steel nails",
           "skillingTargetNpc": "sawmill operator"
+        },
+        {
+          "name": "Fletch arrowshafts to 10 Fletching",
+          "type": "LOCATION",
+          "targetId": -1,
+          "completed": false,
+          "itemMode": "BANK",
+          "questStopIndex": -1,
+          "transitionObjectId": -1,
+          "boardObjectId": -1,
+          "highlightEnabled": true,
+          "npcKillCount": 0,
+          "questComplete": false,
+          "skillingTargetObject": "Tree",
+          "skillingSkill": "FLETCHING",
+          "skillingGoalType": "LEVEL",
+          "skillingGoalValue": 10,
+          "skillingStartXp": 0,
+          "skillingProgress": 0,
+          "inventoryHighlightItems": "Knife, Logs",
+          "sectionId": "d7cd9577-dfe7-52ed-a2fd-e12255176d00"
         },
         {
           "name": "Cut the dying tree",
@@ -3150,7 +3214,29 @@
             "plane": 0
           },
           "itemList": "Fly fishing rod,Lobster pot,3 Iron bar,Big fishing net,Feather",
-          "noteText": "DANGER on the way: aggressive monsters along the path. Hop worlds for the iron bars.",
+          "noteText": "DANGER on the way: aggressive monsters along the path.",
+          "noteAutoComplete": false,
+          "sectionId": "a70a9a0f-005e-5689-8378-fbe8abad0281"
+        },
+        {
+          "name": "Sunset Coast iron bars",
+          "type": "LOCATION",
+          "targetId": -1,
+          "completed": false,
+          "itemMode": "PICKUP",
+          "questStopIndex": -1,
+          "transitionObjectId": -1,
+          "boardObjectId": -1,
+          "highlightEnabled": false,
+          "npcKillCount": 0,
+          "questComplete": false,
+          "worldPoint": {
+            "x": 1522,
+            "y": 2985,
+            "plane": 0
+          },
+          "itemList": "3 Iron bar",
+          "noteText": "2 are for The Knight's Sword (Bank 12). If the spawn is camped, take what you can, tick this off and get the rest before Bank 12: buy them or smelt iron ore.",
           "noteAutoComplete": false,
           "sectionId": "a70a9a0f-005e-5689-8378-fbe8abad0281"
         },
@@ -3329,7 +3415,7 @@
           },
           "skillingTargetNpc": "Bartender, Necto",
           "itemList": "Steel pickaxe,150 Jug of wine,20 Wizard's mind bomb,20 Stew",
-          "noteText": "Infinite stock, so no fighting over it. This is your food until Part 3.",
+          "noteText": "Infinite stock, so no fighting over it. This is your food until Part 3. Launch week: wine costs 1gp here and players pay up to 8gp, so buy extra to sell for quick money.",
           "noteAutoComplete": false,
           "sectionId": "243b44a8-602f-5386-8476-110df40fc266"
         },
@@ -3492,7 +3578,7 @@
             "y": 3243,
             "plane": 0
           },
-          "itemList": "Coins, Mind rune, Small fishing net, Onion, Bronze pickaxe/Steel pickaxe, 2 Jug of wine",
+          "itemList": "Coins, Mind rune, Small fishing net, Onion, Bronze pickaxe/Steel pickaxe, 2 Jug of wine, Knife",
           "sectionId": "bfb89f4d-407a-507a-9b7f-3556bd53a45a"
         },
         {
@@ -3517,6 +3603,222 @@
           "inventoryHighlightItems": "Teleport card, Chronicle",
           "noteText": "Use the pages on it and wear it. It's your emergency teleport from now on.",
           "noteAutoComplete": false,
+          "sectionId": "bfb89f4d-407a-507a-9b7f-3556bd53a45a"
+        },
+        {
+          "name": "Buy a rope from Ned",
+          "type": "LOCATION",
+          "targetId": -1,
+          "completed": false,
+          "itemMode": "SHOP",
+          "questStopIndex": -1,
+          "transitionObjectId": -1,
+          "boardObjectId": -1,
+          "highlightEnabled": true,
+          "npcKillCount": 0,
+          "questComplete": false,
+          "skillingTargetNpc": "Ned",
+          "itemList": "Rope",
+          "noteText": "Keep the banked rope for Gertrude's Cat.",
+          "noteAutoComplete": false,
+          "sectionId": "bfb89f4d-407a-507a-9b7f-3556bd53a45a"
+        },
+        {
+          "name": "Start A Porcine of Interest",
+          "type": "LOCATION",
+          "targetId": -1,
+          "completed": false,
+          "itemMode": "BANK",
+          "questStopIndex": -1,
+          "transitionObjectId": -1,
+          "boardObjectId": -1,
+          "highlightEnabled": true,
+          "npcKillCount": 0,
+          "questComplete": false,
+          "worldPoint": {
+            "x": 3086,
+            "y": 3251,
+            "plane": 0
+          },
+          "skillingTargetObject": "Notice board",
+          "dialogOptions": "1",
+          "questName": "A_PORCINE_OF_INTEREST",
+          "noteText": "The notice board behind Fortunato's wine stall.",
+          "noteAutoComplete": false,
+          "sectionId": "bfb89f4d-407a-507a-9b7f-3556bd53a45a"
+        },
+        {
+          "name": "Sarah: the bounty",
+          "type": "LOCATION",
+          "targetId": -1,
+          "completed": false,
+          "itemMode": "BANK",
+          "questStopIndex": -1,
+          "transitionObjectId": -1,
+          "boardObjectId": -1,
+          "highlightEnabled": true,
+          "npcKillCount": 0,
+          "questComplete": false,
+          "worldPoint": {
+            "x": 3036,
+            "y": 3294,
+            "plane": 0
+          },
+          "skillingTargetNpc": "Sarah",
+          "questName": "A_PORCINE_OF_INTEREST",
+          "noteText": "South Falador Farm. Pick \"Talk about the bounty\".",
+          "noteAutoComplete": false,
+          "sectionId": "bfb89f4d-407a-507a-9b7f-3556bd53a45a"
+        },
+        {
+          "name": "Rope on the strange hole",
+          "type": "LOCATION",
+          "targetId": -1,
+          "completed": false,
+          "itemMode": "BANK",
+          "questStopIndex": -1,
+          "transitionObjectId": -1,
+          "boardObjectId": -1,
+          "highlightEnabled": true,
+          "npcKillCount": 0,
+          "questComplete": false,
+          "worldPoint": {
+            "x": 3150,
+            "y": 3347,
+            "plane": 0
+          },
+          "skillingTargetObject": "Strange hole",
+          "inventoryHighlightItems": "Rope",
+          "noteText": "From the crossroads south of Draynor Manor, follow the cabbages and carrots north-east to the hole. Use the rope on it and climb down.",
+          "noteAutoComplete": false,
+          "sectionId": "bfb89f4d-407a-507a-9b7f-3556bd53a45a"
+        },
+        {
+          "name": "Investigate the skeleton",
+          "type": "LOCATION",
+          "targetId": -1,
+          "completed": false,
+          "itemMode": "BANK",
+          "questStopIndex": -1,
+          "transitionObjectId": -1,
+          "boardObjectId": -1,
+          "highlightEnabled": true,
+          "npcKillCount": 0,
+          "questComplete": false,
+          "worldPoint": {
+            "x": 3163,
+            "y": 9676,
+            "plane": 0
+          },
+          "skillingTargetObject": "Skeleton",
+          "questName": "A_PORCINE_OF_INTEREST",
+          "noteText": "At the end of the cave. Take the bronze scimitar here if you have no knife.",
+          "noteAutoComplete": false,
+          "sectionId": "bfb89f4d-407a-507a-9b7f-3556bd53a45a"
+        },
+        {
+          "name": "Goggles from Spria",
+          "type": "LOCATION",
+          "targetId": -1,
+          "completed": false,
+          "itemMode": "PICKUP",
+          "questStopIndex": -1,
+          "transitionObjectId": -1,
+          "boardObjectId": -1,
+          "highlightEnabled": true,
+          "npcKillCount": 0,
+          "questComplete": false,
+          "worldPoint": {
+            "x": 3091,
+            "y": 3267,
+            "plane": 0
+          },
+          "skillingTargetNpc": "Spria",
+          "itemList": "Reinforced goggles",
+          "inventoryHighlightItems": "Reinforced goggles",
+          "sectionId": "bfb89f4d-407a-507a-9b7f-3556bd53a45a"
+        },
+        {
+          "name": "Kill the Sourhog",
+          "type": "LOCATION",
+          "targetId": -1,
+          "completed": false,
+          "itemMode": "BANK",
+          "questStopIndex": -1,
+          "transitionObjectId": -1,
+          "boardObjectId": -1,
+          "highlightEnabled": true,
+          "npcKillCount": 1,
+          "questComplete": false,
+          "worldPoint": {
+            "x": 3165,
+            "y": 9678,
+            "plane": 0
+          },
+          "npcHighlight": "Sourhog",
+          "inventoryHighlightItems": "Reinforced goggles",
+          "questName": "A_PORCINE_OF_INTEREST",
+          "noteText": "DANGER: wear the reinforced goggles first. Without them it hits 20-30 and drains Attack and Defence. With them its max hit is 6. Bring food, and don't use slash or magic: it resists both.",
+          "noteAutoComplete": false,
+          "sectionId": "bfb89f4d-407a-507a-9b7f-3556bd53a45a"
+        },
+        {
+          "name": "Cut off the Sourhog foot",
+          "type": "LOCATION",
+          "targetId": -1,
+          "completed": false,
+          "itemMode": "PICKUP",
+          "questStopIndex": -1,
+          "transitionObjectId": -1,
+          "boardObjectId": -1,
+          "highlightEnabled": true,
+          "npcKillCount": 0,
+          "questComplete": false,
+          "itemList": "Sourhog foot",
+          "inventoryHighlightItems": "Knife, Bronze scimitar",
+          "sectionId": "bfb89f4d-407a-507a-9b7f-3556bd53a45a"
+        },
+        {
+          "name": "Sourhog foot to Sarah",
+          "type": "LOCATION",
+          "targetId": -1,
+          "completed": false,
+          "itemMode": "BANK",
+          "questStopIndex": -1,
+          "transitionObjectId": -1,
+          "boardObjectId": -1,
+          "highlightEnabled": true,
+          "npcKillCount": 0,
+          "questComplete": false,
+          "worldPoint": {
+            "x": 3036,
+            "y": 3294,
+            "plane": 0
+          },
+          "skillingTargetNpc": "Sarah",
+          "inventoryHighlightItems": "Sourhog foot",
+          "questName": "A_PORCINE_OF_INTEREST",
+          "sectionId": "bfb89f4d-407a-507a-9b7f-3556bd53a45a"
+        },
+        {
+          "name": "Finish A Porcine of Interest",
+          "type": "LOCATION",
+          "targetId": -1,
+          "completed": false,
+          "itemMode": "BANK",
+          "questStopIndex": -1,
+          "transitionObjectId": -1,
+          "boardObjectId": -1,
+          "highlightEnabled": true,
+          "npcKillCount": 0,
+          "questComplete": true,
+          "worldPoint": {
+            "x": 3091,
+            "y": 3267,
+            "plane": 0
+          },
+          "skillingTargetNpc": "Spria",
+          "questName": "A_PORCINE_OF_INTEREST",
           "sectionId": "bfb89f4d-407a-507a-9b7f-3556bd53a45a"
         },
         {
@@ -3582,7 +3884,7 @@
             "plane": 0
           },
           "skillingTargetNpc": "Gerrant",
-          "itemList": "Harpoon, 50 Fishing bait",
+          "itemList": "Harpoon, 50 Fishing bait, Raw sardine",
           "inventoryHighlightItems": "White apron",
           "noteText": "Take the apron off the wall and wear it.",
           "noteAutoComplete": false,
@@ -3809,8 +4111,6 @@
           },
           "skillingTargetNpc": "Wydin",
           "itemList": "Raw chicken, 2 Raw beef, 3 Pot of flour, 2 Redberries",
-          "noteText": "Buy 8 raw sardines too.",
-          "noteAutoComplete": false,
           "sectionId": "bfb89f4d-407a-507a-9b7f-3556bd53a45a"
         },
         {
@@ -4642,6 +4942,33 @@
           "sectionId": "83eb15b9-f3e0-5bbf-967e-84f22976811e"
         },
         {
+          "name": "Mine to 10 Mining",
+          "type": "LOCATION",
+          "targetId": -1,
+          "completed": false,
+          "itemMode": "BANK",
+          "questStopIndex": -1,
+          "transitionObjectId": -1,
+          "boardObjectId": -1,
+          "highlightEnabled": true,
+          "npcKillCount": 0,
+          "questComplete": false,
+          "worldPoint": {
+            "x": 2977,
+            "y": 3247,
+            "plane": 0
+          },
+          "skillingTargetObject": "Copper rocks",
+          "skillingSkill": "MINING",
+          "skillingGoalType": "LEVEL",
+          "skillingGoalValue": 10,
+          "skillingStartXp": 0,
+          "skillingProgress": 0,
+          "noteText": "Rimmington mine. Blurite needs 10 Mining. Mine copper or tin and drop it.",
+          "noteAutoComplete": false,
+          "sectionId": "83eb15b9-f3e0-5bbf-967e-84f22976811e"
+        },
+        {
           "name": "Thurgo",
           "type": "LOCATION",
           "targetId": -1,
@@ -5211,14 +5538,25 @@
           "npcKillCount": 0,
           "questComplete": false,
           "worldPoint": {
-            "x": 2565,
-            "y": 9634,
+            "x": 2564,
+            "y": 9661,
             "plane": 0
           },
           "itemList": "Rat poison",
           "noteText": "Under the Clock Tower (Ratcatchers).",
           "noteAutoComplete": false,
-          "sectionId": "7c166f16-2248-54cc-bacf-0822a933e787"
+          "sectionId": "7c166f16-2248-54cc-bacf-0822a933e787",
+          "areaTo": {
+            "x": 2565,
+            "y": 9662,
+            "plane": 0
+          },
+          "areaFrom": {
+            "x": 2564,
+            "y": 9661,
+            "plane": 0
+          },
+          "highlightInAreaOnly": true
         },
         {
           "name": "Start Sheep Herder",
@@ -5510,7 +5848,23 @@
           "npcKillCount": 0,
           "questComplete": false,
           "itemList": "2 Purple dye",
-          "sectionId": "c1acf918-8a6f-58e4-9b18-d2bf8b8f014c"
+          "sectionId": "c1acf918-8a6f-58e4-9b18-d2bf8b8f014c",
+          "areaTo": {
+            "x": 2563,
+            "y": 3261,
+            "plane": 0
+          },
+          "areaFrom": {
+            "x": 2563,
+            "y": 3261,
+            "plane": 0
+          },
+          "worldPoint": {
+            "x": 2563,
+            "y": 3261,
+            "plane": 0
+          },
+          "highlightInAreaOnly": true
         },
         {
           "name": "Hazeel Cult",
@@ -5548,7 +5902,23 @@
           "npcKillCount": 0,
           "questComplete": false,
           "itemList": "Glarial's pebble",
-          "sectionId": "c1acf918-8a6f-58e4-9b18-d2bf8b8f014c"
+          "sectionId": "c1acf918-8a6f-58e4-9b18-d2bf8b8f014c",
+          "areaTo": {
+            "x": 2517,
+            "y": 9582,
+            "plane": 0
+          },
+          "areaFrom": {
+            "x": 2511,
+            "y": 9578,
+            "plane": 0
+          },
+          "worldPoint": {
+            "x": 2514,
+            "y": 9580,
+            "plane": 0
+          },
+          "highlightInAreaOnly": true
         },
         {
           "name": "Tree Gnome Village",
@@ -5805,23 +6175,34 @@
           "npcKillCount": 0,
           "questComplete": false,
           "worldPoint": {
-            "x": 2551,
-            "y": 3081,
+            "x": 2552,
+            "y": 3079,
             "plane": 0
           },
           "skillingTargetNpc": "Bartender",
           "dialogOptions": "4",
           "questName": "ALFRED_GRIMHANDS_BARCRAWL",
-          "noteText": "Nightmare Zone minigame teleport, then into Yanille.",
-          "noteAutoComplete": false,
-          "sectionId": "b58c29c7-65fb-5cf9-8966-010c141b81cd",
+          "teleportMethod": "SPELL",
+          "teleportSpell": "Castle Wars Minigame Teleport",
           "teleportDestination": {
-            "x": 2609,
-            "y": 3114,
+            "x": 2442,
+            "y": 3093,
             "plane": 0
           },
-          "teleportMethod": "SPELL",
-          "teleportSpell": "Nightmare Zone Minigame Teleport"
+          "noteText": "Castle wars minigame teleport, then into Yanille.",
+          "noteAutoComplete": false,
+          "sectionId": "b58c29c7-65fb-5cf9-8966-010c141b81cd",
+          "highlightInAreaOnly": true,
+          "areaFrom": {
+            "x": 2548,
+            "y": 3077,
+            "plane": 0
+          },
+          "areaTo": {
+            "x": 2557,
+            "y": 3082,
+            "plane": 0
+          }
         },
         {
           "name": "Hazelmere",
